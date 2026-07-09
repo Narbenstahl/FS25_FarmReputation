@@ -22,7 +22,6 @@ A reputation and progression system for **Farming Simulator 25** that rewards de
 - 🌍 Fully localized
   - German
   - English
-  - French
 
 ---
 
