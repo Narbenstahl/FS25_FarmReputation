@@ -9,6 +9,18 @@ A reputation and progression system for **Farming Simulator 25** that rewards de
 
 ---
 
+# 📦 Dependency
+
+**FS25 Farm Reputation requires the following mod to work:**
+
+### Better Contracts
+- **Author:** Mmtrx
+- **Required:** Yes
+- **Official ModHub:** [Better Contracts on ModHub](https://www.farming-simulator.com/mod.php?mod_id=307829)
+- **GitHub Repository:** [Mmtrx/FS25_BetterContracts](https://github.com/Mmtrx/FS25_BetterContracts)
+
+> ⚠️ Without **Better Contracts**, FS25 Farm Reputation will not load because it is defined as a required dependency in the mod configuration.
+
 # ✨ Features
 
 - 🏆 Reputation system with multiple ranks
@@ -140,3 +152,9 @@ https://github.com/Narbenstahl
 
 YouTube:
 https://www.youtube.com/@narbenstahl
+
+## Credits
+
+This project builds upon the excellent **Better Contracts** mod by **Mmtrx**.
+
+Many thanks to Mmtrx for providing the foundation and public API that made this project possible.
