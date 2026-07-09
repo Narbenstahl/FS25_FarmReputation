@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<modDesc descVersion="110">
+
+    <author>Narbenstahl</author>
+    <version>1.0.0.0</version>
+	
+	<multiplayer supported="true"/>
+
+    <title>
+        <en>Farm Reputation</en>
+        <de>Farm Reputation - Rufsystem</de>
+    </title>
+
+	<description>
+    <en><![CDATA[
+Farm Reputation extends Farming Simulator 25 and Better Contracts with a complete reputation and career progression system, adding long-term progression and a more realistic contract experience.
+
+Develop your reputation both as a farmer and as a reliable contractor to unlock better opportunities throughout your career.
+
+Features:
+• Complete career progression with multiple ranks
+• Individual reputation for every contractor
+• Contractor-specific contract value bonuses
+• Farm reputation system with long-term progression
+• Quarterly farm evaluations
+• Field analysis
+• Unlock new rewards as your reputation grows
+• Increase the number of active contracts
+• Unlock higher maximum contract values
+• Earn additional contract payment bonuses
+
+How it works:
+• Earn reputation by successfully completing contracts.
+• Earn additional reputation through positive quarterly farm evaluations.
+• Lose reputation by cancelling contracts or receiving poor farm evaluations.
+• Every contractor has an individual reputation.
+• Higher contractor reputation unlocks higher contract value limits for that specific contractor.
+• Your career rank determines your base contract limits, reward bonuses and the maximum number of active contracts.
+• Farm evaluations are based on weed management, stone management, fertilization, liming and plowing.
+
+Controls:
+• F9 - Move the reputation HUD
+• A - Previous page
+• D - Next page
+• Arrow Up - Select previous contractor
+• Arrow Down - Select next contractor
+
+Requirements:
+• Better Contracts (latest version) is required.
+
+Compatibility:
+• Multiplayer supported
+• Existing savegames supported
+• Compatible with Precision Farming (not required)
+• PC only (Script Mod)
+]]></en>
+
+    <de><![CDATA[
+Farm Reputation erweitert Farming Simulator 25 und Better Contracts um ein vollständiges Reputations- und Karrieresystem mit langfristiger Progression und einem realistischeren Vertragssystem.
+
+Baue deinen Ruf sowohl als Landwirt als auch als zuverlässiger Auftragnehmer auf und schalte im Laufe deiner Karriere neue Möglichkeiten frei.
+
+Funktionen:
+• Karrieresystem mit mehreren Rängen
+• Individuelle Reputation für jeden Auftraggeber
+• Auftraggeber-spezifische Boni auf den maximalen Auftragswert
+• Langfristiges Reputationssystem
+• Vierteljährliche Betriebsbewertung
+• Feldanalyse
+• Neue Freischaltungen durch steigende Reputation
+• Mehr gleichzeitig aktive Aufträge
+• Höhere maximale Auftragswerte
+• Vergütungsboni
+
+So funktioniert es:
+• Reputation durch erfolgreich abgeschlossene Aufträge verdienen.
+• Zusätzliche Reputation durch positive Betriebsbewertungen erhalten.
+• Reputation durch Vertragsabbrüche oder schlechte Betriebsbewertungen verlieren.
+• Jeder Auftraggeber besitzt eine eigene Reputation.
+• Eine höhere Reputation bei einem Auftraggeber erhöht den maximalen Auftragswert ausschließlich bei diesem Auftraggeber.
+• Dein Karriererang bestimmt das Basis-Auftragslimit, Vergütungsboni und die maximale Anzahl aktiver Aufträge.
+• Die Betriebsbewertung berücksichtigt Unkraut, Steine, Düngung, Kalk und Pflügen.
+
+Steuerung:
+• F9 - Reputations-HUD verschieben
+• A - Vorherige Seite
+• D - Nächste Seite
+• Pfeil hoch - Vorherigen Auftraggeber auswählen
+• Pfeil runter - Nächsten Auftraggeber auswählen
+
+Voraussetzungen:
+• Better Contracts (aktuelle Version) erforderlich.
+
+Kompatibilität:
+• Multiplayer unterstützt
+• Bestehende Spielstände werden unterstützt
+• Kompatibel mit Precision Farming (nicht erforderlich)
+• Nur PC (Script-Mod)
+]]></de>
+
+	<fr><![CDATA[
+Farm Reputation étend Farming Simulator 25 et Better Contracts avec un système complet de réputation et de progression de carrière, ajoutant une progression à long terme et une expérience des contrats plus réaliste.
+
+Développez votre réputation à la fois en tant qu'agriculteur et en tant que prestataire fiable afin de débloquer de nouvelles opportunités tout au long de votre carrière.
+
+Fonctionnalités :
+• Système de carrière complet avec plusieurs rangs
+• Réputation individuelle pour chaque donneur d'ordres
+• Bonus de valeur maximale des contrats spécifiques à chaque donneur d'ordres
+• Système de réputation de l'exploitation avec progression à long terme
+• Évaluations trimestrielles de l'exploitation
+• Analyse des champs
+• Débloquez de nouvelles récompenses à mesure que votre réputation augmente
+• Augmentez le nombre de contrats actifs
+• Débloquez des valeurs maximales de contrat plus élevées
+• Obtenez des bonus de rémunération sur les contrats
+
+Fonctionnement :
+• Gagnez de la réputation en accomplissant des contrats avec succès.
+• Obtenez de la réputation supplémentaire grâce à de bonnes évaluations trimestrielles de l'exploitation.
+• Perdez de la réputation en annulant des contrats ou en obtenant de mauvaises évaluations de l'exploitation.
+• Chaque donneur d'ordres possède sa propre réputation.
+• Une meilleure réputation auprès d'un donneur d'ordres augmente uniquement la valeur maximale des contrats avec celui-ci.
+• Votre rang de carrière détermine votre limite de contrat de base, vos bonus de rémunération et le nombre maximal de contrats actifs.
+• Les évaluations de l'exploitation prennent en compte les mauvaises herbes, les pierres, la fertilisation, le chaulage et le labour.
+
+Commandes :
+• F9 - Déplacer le HUD de réputation
+• A - Page précédente
+• D - Page suivante
+• Flèche Haut - Sélectionner le donneur d'ordres précédent
+• Flèche Bas - Sélectionner le donneur d'ordres suivant
+
+Configuration requise :
+• Better Contracts (dernière version) est requis.
+
+Compatibilité :
+• Multijoueur pris en charge
+• Compatible avec les sauvegardes existantes
+• Compatible avec Precision Farming (non requis)
+• PC uniquement (Script Mod)
+]]></fr>
+	
+	</description>
+	
+    <iconFilename>icon_mod.dds</iconFilename>
+
+    <dependencies>
+        <dependency>FS25_BetterContracts</dependency>
+    </dependencies>
+
+    <extraSourceFiles>
+		<sourceFile filename="scripts/FRDebug.lua"/>
+        <sourceFile filename="scripts/FarmReputation.lua"/>
+        <sourceFile filename="scripts/ReputationManager.lua"/>
+        <sourceFile filename="scripts/ContractEvaluator.lua"/>
+		<sourceFile filename="scripts/MissionFilter.lua"/>
+		<sourceFile filename="scripts/ContractorManager.lua"/>
+		<sourceFile filename="scripts/MultiplayerManager.lua"/>
+		<sourceFile filename="scripts/FarmReputationDisplay.lua"/>
+		<sourceFile filename="scripts/RankNotificationManager.lua"/>
+		<sourceFile filename="scripts/MissionLimitNotificationManager.lua"/>
+		<sourceFile filename="scripts/ContractAcceptanceManager.lua"/>
+		<sourceFile filename="scripts/InGameMenuExtension.lua"/>
+		<sourceFile filename="scripts/AKF/AKFFieldScanner.lua"/>
+		<sourceFile filename="scripts/AKF/AKFReputationCalculator.lua"/>
+		<sourceFile filename="scripts/AKF/AKFFieldAnalyzer.lua"/>
+		<sourceFile filename="scripts/AKF/AKFFarmEvaluationManager.lua"/>
+		<sourceFile filename="scripts/SavegameManager.lua"/>
+		<sourceFile filename="scripts/AKF/AKFDebug.lua"/>
+    </extraSourceFiles>
+	
+	<l10n filenamePrefix="translations/l10n" />
+	
+	<actions>
+		<action name="FR_PREVIOUS_PAGE" category="SYSTEM" axisType="HALF" ignoreComboMask="true"/>
+		<action name="FR_NEXT_PAGE" category="SYSTEM" axisType="HALF" ignoreComboMask="true"/>
+		<action name="FR_CONTRACTOR_UP" category="SYSTEM" axisType="HALF" ignoreComboMask="true"/>
+		<action name="FR_CONTRACTOR_DOWN" category="SYSTEM" axisType="HALF" ignoreComboMask="true"/>
+	</actions>
+
+	<inputBinding>
+		<actionBinding action="FR_PREVIOUS_PAGE">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_a" index="1"/>
+		</actionBinding>
+
+		<actionBinding action="FR_NEXT_PAGE">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_d" index="1"/>
+		</actionBinding>
+		
+		<actionBinding action="FR_CONTRACTOR_UP">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_up" index="1"/>
+		</actionBinding>
+
+		<actionBinding action="FR_CONTRACTOR_DOWN">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_down" index="1"/>
+		</actionBinding>
+	</inputBinding>
+
+</modDesc>

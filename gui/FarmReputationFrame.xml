@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<GUI name="FarmReputationFrame">
+
+    <GuiElement profile="fs25_menuContainer">
+
+        <GuiElement profile="fs25_menuHeaderPanel">
+            <Text profile="fs25_menuHeaderTitle"
+                   text="$l10n_fr_menuTitle" />
+        </GuiElement>
+		
+		<!-- PAGE NAVIGATION -->
+
+		<Text profile="pageTitle"
+			id="pageTitleText"
+			text="$l10n_fr_page_career" />
+		
+		<GuiElement id="careerPage">
+		
+        <!-- KARRIERE -->
+
+        <Text profile="careerTitle"
+              text="$l10n_fr_careerTitle" />
+
+        <Text profile="rankLabel"
+              text="$l10n_fr_currentRank" />
+
+        <Text profile="rankValue"
+              id="rankText"
+              text="-" />
+
+        <Text profile="repLabel"
+              text="$l10n_fr_reputation" />
+
+        <Text profile="repValue"
+              id="reputationText"
+              text="-" />
+
+        <!-- REPUTATION PROGRESS BAR -->
+
+		<Text profile="repBarArea"
+			id="repBarArea"
+			text=""
+			onDraw="onDrawReputationBar" />
+		
+		<!-- AKTUELLE VORTEILE -->
+
+		<Text profile="benefitsTitle"
+			  text="$l10n_fr_currentBenefits" />
+
+		<Text profile="contractsLabel"
+			  text="$l10n_fr_maxActiveContracts" />
+
+		<Text profile="contractsValue"
+			  id="maxContractsText"
+			  text="-" />
+
+		<Text profile="valueLabel"
+			  text="$l10n_fr_maxContractValue" />
+
+		<Text profile="valueValue"
+			  id="maxContractValueText"
+			  text="-" />
+
+		<Text profile="bonusLabel"
+			  text="$l10n_fr_rewardBonus" />
+
+		<Text profile="bonusValue"
+			  id="bonusPercentText"
+			  text="-" />
+	
+	</GuiElement>
+	
+	<GuiElement id="unlockPage">
+		<!-- FREISCHALTUNGEN -->
+		<Text profile="unlockTitle"
+			  text="$l10n_fr_unlockTitle" />
+
+		<Text profile="unlockCurrentRankLabel"
+			  text="$l10n_fr_currentRank" />
+
+		<Text profile="unlockCurrentRankValue"
+			  id="unlockCurrentRankText"
+			  text="-" />
+
+		<Text profile="unlockCurrentTitle"
+			  text="$l10n_fr_unlocked" />
+
+		<Text profile="unlockCurrent1"
+			  id="unlockCurrentMissionText"
+			  text="-" />
+
+		<Text profile="unlockCurrent2"
+			  id="unlockCurrentBonusText"
+			  text="-" />
+
+		<Text profile="unlockCurrent3"
+			  id="unlockCurrentValueText"
+			  text="-" />
+
+		<Text profile="unlockNextRankLabel"
+			  text="$l10n_fr_nextRank" />
+
+		<Text profile="unlockNextRankValue"
+			  id="unlockNextRankText"
+			  text="-" />
+
+		<Text profile="unlockNextTitle"
+			   text="$l10n_fr_willUnlock" />
+
+		<Text profile="unlockNext1"
+			  id="unlockNextMissionText"
+			  text="-" />
+
+		<Text profile="unlockNext2"
+			  id="unlockNextBonusText"
+			  text="-" />
+
+		<Text profile="unlockNext3"
+			  id="unlockNextValueText"
+			  text="-" />
+
+	</GuiElement>
+	
+	<GuiElement id="contractorPage">
+		<!-- AUFTRAGGEBER -->
+
+		<Text profile="contractorsTitle"
+			text="$l10n_fr_contractorsTitle" />
+		
+		<Text profile="contractorList"
+			id="contractorListText"
+			text="-" />	
+
+		<Text profile="contractorLabel"
+			  text="$l10n_fr_rank" />
+
+		<Text profile="contractorValue"
+			id="contractorRankText"
+			text="-" />
+
+		<Text profile="contractorLabel2"
+			  text="$l10n_fr_reputation" />
+
+		<Text profile="contractorValue2"
+			  id="contractorRepText"
+			  text="-" />
+
+		<Text profile="contractorLabel3"
+			  text="$l10n_fr_accepted" />
+
+		<Text profile="contractorValue3"
+			  id="contractorAcceptedText"
+			  text="-" />
+
+		<Text profile="contractorLabel4"
+			  text="$l10n_fr_completed" />
+
+		<Text profile="contractorValue4"
+			  id="contractorCompletedText"
+			  text="-" />
+
+		<Text profile="contractorLabel5"
+			  text="$l10n_fr_cancelled" />
+
+		<Text profile="contractorValue5"
+			  id="contractorCancelledText"
+			  text="-" />
+		
+		<!-- VORTEILE -->
+
+		<Text profile="contractorBenefitsTitle"
+			   text="$l10n_fr_benefits"/>
+
+		<Text profile="contractorLabel6"
+			  text="$l10n_fr_ownLimit"/>
+
+		<Text profile="contractorValue6"
+			  id="contractorBaseLimitText"
+			  text="-"/>
+
+		<Text profile="contractorLabel7"
+			  text="$l10n_fr_bonusContractor"/>
+
+		<Text profile="contractorValue7"
+			  id="contractorBonusLimitText"
+			  text="-"/>
+
+		<Text profile="contractorLabel8"
+			  text="$l10n_fr_totalLimit"/>
+
+		<Text profile="contractorValue8"
+			  id="contractorMaxLimitText"
+			  text="-"/>
+	</GuiElement>
+
+	<GuiElement id="evaluationPage">
+
+		<!-- BETRIEBSBEWERTUNG -->
+
+		<Text profile="evaluationTitle"
+			   text="$l10n_fr_farmEvaluationTitle" />
+
+		<Text profile="evaluationLabel1"
+			  text="$l10n_fr_lastEvaluation" />
+
+		<Text profile="evaluationValue1"
+			  id="evaluationLastText"
+			  text="-" />
+
+		<Text profile="evaluationLabel2"
+			  text="$l10n_fr_farmRating" />
+
+		<Text profile="evaluationValue2"
+			  id="evaluationScoreText"
+			  text="-" />
+
+		<Text profile="evaluationLabel3"
+			  text="$l10n_fr_farmStatus" />
+
+		<Text profile="evaluationValue3"
+			  id="evaluationStatusText"
+			  text="-" />
+
+		<Text profile="evaluationLabel4"
+			  text="$l10n_fr_reputationChange" />
+
+		<Text profile="evaluationValue4"
+			  id="evaluationRepText"
+			  text="-" />
+
+		<Text profile="evaluationInfoTitle"
+			  text="$l10n_fr_information" />
+
+		<Text profile="evaluationInfoText1"
+			  text="$l10n_fr_evaluationInfo1" />
+
+		<Text profile="evaluationInfoText2"
+			  text="$l10n_fr_evaluationInfo2" />
+
+		<Text profile="evaluationInfoText3"
+			  text="$l10n_fr_evaluationInfo3" />
+
+	</GuiElement>
+	
+	<GuiElement id="evaluationDisabledPage">
+	
+		<Text profile="evaluationDisabledTitle"
+			  text="$l10n_fr_evaluationDisabledTitle" />
+		
+		<Text profile="evaluationDisabledText"
+			  text="$l10n_fr_evaluationDisabledText" />
+		
+		<Text profile="evaluationDisabledSubTitle"
+			  text="$l10n_fr_requiredGameOptions" />
+
+		<Text profile="evaluationDisabledRequirement"
+			  id="plowRequiredText"
+			  text="$l10n_fr_requirementPlowing" />
+
+		<Text profile="evaluationDisabledRequirement2"
+			  id="stoneRequiredText"
+			  text="$l10n_fr_requirementStones" />
+
+		<Text profile="evaluationDisabledRequirement3"
+			  id="weedRequiredText"
+			  text="$l10n_fr_requirementWeeds" />
+	
+		<Text profile="evaluationDisabledInfoTitle"
+			  text="$l10n_fr_benefits" />
+
+		<Text profile="evaluationDisabledInfo1"
+			  text="$l10n_fr_evaluationDisabledInfo1" />
+
+		<Text profile="evaluationDisabledInfo2"
+			  text="$l10n_fr_evaluationDisabledInfo2" />
+
+		<Text profile="evaluationDisabledInfo3"
+			  text="$l10n_fr_evaluationDisabledInfo3" />
+
+		<Text profile="evaluationDisabledInfo4"
+			  text="$l10n_fr_evaluationDisabledInfo4" />
+		
+	</GuiElement>
+	
+	<GuiElement
+		id="fieldAnalysisDisabledPage">
+		
+
+		<Text profile="evaluationDisabledTitle"
+			   text="$l10n_fr_fieldAnalysisUnavailableTitle" />
+
+		<Text profile="evaluationDisabledText"
+			  text="$l10n_fr_fieldAnalysisUnavailableText" />
+
+		<Text profile="evaluationDisabledInfoTitle"
+			   text="$l10n_fr_benefits" />
+
+		<Text profile="evaluationDisabledInfo1"
+			  text="$l10n_fr_fieldAnalysisUnavailableInfo1" />
+
+		<Text profile="evaluationDisabledInfo2"
+			  text="$l10n_fr_fieldAnalysisUnavailableInfo2" />
+
+		<Text profile="evaluationDisabledInfo3"
+			  text="$l10n_fr_fieldAnalysisUnavailableInfo3" />
+
+		<Text profile="evaluationDisabledInfo4"
+			  text="$l10n_fr_fieldAnalysisUnavailableInfo4" />
+
+		<Text profile="evaluationDisabledInfo5"
+			  text="$l10n_fr_fieldAnalysisUnavailableInfo5" />
+
+		<Text profile="evaluationDisabledInfo6"
+			  text="$l10n_fr_fieldAnalysisUnavailableInfo6" />
+
+	</GuiElement>
+	
+	<GuiElement id="fieldAnalysisPage">
+
+		<!-- FELDANALYSE -->
+
+		<Text profile="fieldAnalysisTitle"
+			  text="$l10n_fr_fieldAnalysisTitle" />
+
+		<Text profile="fieldLabel1"
+			  text="$l10n_fr_weeds" />
+
+		<Text profile="fieldValue1"
+			  id="weedAnalysisText"
+			  text="-" />
+
+		<Text profile="fieldLabel2"
+			  text="$l10n_fr_stones" />
+
+		<Text profile="fieldValue2"
+			  id="stoneAnalysisText"
+			  text="-" />
+
+		<Text profile="fieldLabel3"
+			  text="$l10n_fr_lime" />
+
+		<Text profile="fieldValue3"
+			  id="limeAnalysisText"
+			  text="-" />
+
+		<Text profile="fieldLabel4"
+			  text="$l10n_fr_fertilization" />
+
+		<Text profile="fieldValue4"
+			  id="fertilizerAnalysisText"
+			  text="-" />
+
+		<Text profile="fieldLabel5"
+			  text="$l10n_fr_plowing" />
+
+		<Text profile="fieldValue5"
+			  id="plowAnalysisText"
+			  text="-" />
+
+		<!-- INFORMATION -->
+
+		<Text profile="fieldInfoTitle"
+			  text="$l10n_fr_note" />
+
+		<Text profile="fieldInfo1"
+			  text="$l10n_fr_fieldInfo1" />
+
+		<Text profile="fieldInfo2"
+			   text="$l10n_fr_fieldInfo2" />
+
+		<Text profile="fieldInfo3"
+			  text="$l10n_fr_fieldInfo3" />
+
+	</GuiElement>
+	
+  </GuiElement>
+
+    <GUIProfiles>
+
+        <!-- KARRIERE -->
+
+        <Profile name="careerTitle"
+                 extends="fs25_textDefault">
+            <position value="220px 700px" />
+            <textSize value="26px" />
+            <textBold value="true" />
+        </Profile>
+
+        <Profile name="rankLabel"
+                 extends="fs25_textDefault">
+            <position value="220px 620px" />
+            <textSize value="18px" />
+        </Profile>
+
+        <Profile name="rankValue"
+                 extends="fs25_textDefault">
+            <position value="220px 580px" />
+            <textSize value="24px" />
+            <textBold value="true" />
+        </Profile>
+
+        <Profile name="repLabel"
+                 extends="fs25_textDefault">
+            <position value="220px 500px" />
+            <textSize value="18px" />
+        </Profile>
+
+        <Profile name="repValue"
+                 extends="fs25_textDefault">
+            <position value="220px 460px" />
+            <textSize value="24px" />
+            <textBold value="true" />
+        </Profile>
+
+        <!-- REPUTATION PROGRESS BAR -->
+
+		<Profile name="repBarArea"
+				 extends="fs25_textDefault">
+			<position value="220px 420px" />
+			<size value="400px 20px" />
+		</Profile>
+
+        <!-- AKTUELLE VORTEILE -->
+
+        <Profile name="benefitsTitle"
+                 extends="fs25_textDefault">
+            <position value="950px 700px" />
+            <textSize value="26px" />
+            <textBold value="true" />
+        </Profile>
+
+        <Profile name="contractsLabel"
+                 extends="fs25_textDefault">
+            <position value="950px 620px" />
+            <textSize value="18px" />
+        </Profile>
+
+        <Profile name="contractsValue"
+                 extends="fs25_textDefault">
+            <position value="950px 580px" />
+            <textSize value="24px" />
+            <textBold value="true" />
+        </Profile>
+
+        <Profile name="valueLabel"
+                 extends="fs25_textDefault">
+            <position value="950px 500px" />
+            <textSize value="18px" />
+        </Profile>
+
+        <Profile name="valueValue"
+                 extends="fs25_textDefault">
+            <position value="950px 460px" />
+            <textSize value="24px" />
+            <textBold value="true" />
+        </Profile>
+
+        <Profile name="bonusLabel"
+                 extends="fs25_textDefault">
+            <position value="950px 380px" />
+            <textSize value="18px" />
+        </Profile>
+
+        <Profile name="bonusValue"
+                 extends="fs25_textDefault">
+            <position value="950px 340px" />
+            <textSize value="24px" />
+            <textBold value="true" />
+        </Profile>
+	
+		<!-- FREISCHALTUNGEN -->
+
+		<Profile name="unlockTitle"
+				 extends="fs25_textDefault">
+			<position value="220px 700px" />
+			<textSize value="26px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="unlockCurrentRankLabel"
+				 extends="fs25_textDefault">
+			<position value="220px 620px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="unlockCurrentRankValue"
+				 extends="fs25_textDefault">
+			<position value="220px 580px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="unlockCurrentTitle"
+				 extends="fs25_textDefault">
+			<position value="220px 500px" />
+			<textSize value="20px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="unlockCurrent1"
+				 extends="fs25_textDefault">
+			<position value="220px 460px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="unlockCurrent2"
+				 extends="fs25_textDefault">
+			<position value="220px 430px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="unlockCurrent3"
+				 extends="fs25_textDefault">
+			<position value="220px 400px" />
+			<textSize value="18px" />
+		</Profile>
+	
+		<Profile name="unlockNextRankLabel"
+				 extends="fs25_textDefault">
+			<position value="950px 620px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="unlockNextRankValue"
+				 extends="fs25_textDefault">
+			<position value="950px 580px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="unlockNextTitle"
+				 extends="fs25_textDefault">
+			<position value="950px 500px" />
+			<textSize value="20px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="unlockNext1"
+				 extends="fs25_textDefault">
+			<position value="950px 460px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="unlockNext2"
+				 extends="fs25_textDefault">
+			<position value="950px 430px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="unlockNext3"
+				 extends="fs25_textDefault">
+			<position value="950px 400px" />
+			<textSize value="18px" />
+		</Profile>
+	
+		<!-- AUFTRAGGEBER -->
+
+		<Profile name="contractorsTitle"
+			extends="fs25_textDefault">
+			<position value="220px 700px" />
+			<textSize value="26px" />
+			<textBold value="true" />
+		</Profile>
+		
+		<Profile name="contractorList"
+			 extends="fs25_textDefault">
+			<position value="220px 380px" />
+			<size value="350px 300px" />
+			<textSize value="20px" />
+		</Profile>
+		
+		<Profile name="contractorHint"
+			extends="fs25_textDefault">
+			<position value="220px 250px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="contractorLabel"
+				 extends="fs25_textDefault">
+			<position value="950px 620px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="contractorValue"
+				 extends="fs25_textDefault">
+			<position value="950px 580px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="contractorLabel2"
+				 extends="fs25_textDefault">
+			<position value="950px 500px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="contractorValue2"
+				 extends="fs25_textDefault">
+			<position value="950px 460px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="contractorLabel3"
+				 extends="fs25_textDefault">
+			<position value="1150px 620px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="contractorValue3"
+				 extends="fs25_textDefault">
+			<position value="1150px 580px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="contractorLabel4"
+				 extends="fs25_textDefault">
+			<position value="1150px 500px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="contractorValue4"
+				 extends="fs25_textDefault">
+			<position value="1150px 460px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="contractorLabel5"
+				 extends="fs25_textDefault">
+			<position value="1150px 380px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="contractorValue5"
+				 extends="fs25_textDefault">
+			<position value="1150px 340px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+		
+		<Profile name="contractorBenefitsTitle"
+				 extends="fs25_textDefault">
+			<position value="950px 250px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+		</Profile>
+
+		<Profile name="contractorLabel6"
+				 extends="fs25_textDefault">
+			<position value="950px 190px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="contractorValue6"
+				 extends="fs25_textDefault">
+			<position value="950px 155px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+		</Profile>
+
+		<Profile name="contractorLabel7"
+				 extends="fs25_textDefault">
+			<position value="950px 110px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="contractorValue7"
+				 extends="fs25_textDefault">
+			<position value="950px 75px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+		</Profile>
+
+		<Profile name="contractorLabel8"
+				 extends="fs25_textDefault">
+			<position value="1150px 190px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="contractorValue8"
+				 extends="fs25_textDefault">
+			<position value="1150px 155px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+		</Profile>
+		
+	<!-- BETRIEBSBEWERTUNG -->
+
+		<Profile name="evaluationTitle"
+				 extends="fs25_textDefault">
+			<position value="220px 700px" />
+			<size value="420px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="evaluationLabel1"
+				 extends="fs25_textDefault">
+			<position value="220px 620px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationValue1"
+				 extends="fs25_textDefault">
+			<position value="220px 580px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="evaluationLabel2"
+				 extends="fs25_textDefault">
+			<position value="220px 500px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationValue2"
+				 extends="fs25_textDefault">
+			<position value="220px 460px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="evaluationLabel3"
+				 extends="fs25_textDefault">
+			<position value="220px 380px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationValue3"
+				 extends="fs25_textDefault">
+			<position value="220px 340px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="evaluationLabel4"
+				 extends="fs25_textDefault">
+			<position value="220px 260px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationValue4"
+				 extends="fs25_textDefault">
+			<position value="220px 220px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="evaluationInfoTitle"
+				 extends="fs25_textDefault">
+			<position value="950px 620px"/>
+			<size value="500px 30px"/>
+			<textSize value="20px"/>
+			<textBold value="true"/>
+		</Profile>
+
+		<Profile name="evaluationInfoText1"
+				 extends="fs25_textDefault">
+			<position value="950px 540px"/>
+			<size value="500px 90px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="evaluationInfoText2"
+				 extends="fs25_textDefault">
+			<position value="950px 410px"/>
+			<size value="500px 50px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="evaluationInfoText3"
+				 extends="fs25_textDefault">
+			<position value="950px 340px"/>
+			<size value="500px 50px"/>
+			<textSize value="18px"/>
+		</Profile>
+		
+		<!-- BETRIEBSBEWERTUNG DEAKTIVIERT -->
+
+		<Profile name="evaluationDisabledTitle"
+				 extends="fs25_textDefault">
+			<position value="220px 700px" />
+			<size value="420px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+		
+		<Profile name="evaluationDisabledText"
+				 extends="fs25_textDefault">
+			<position value="220px 620px" />
+			<size value="420px 60px" />
+			<textSize value="18px" />
+		</Profile>
+		
+		<Profile name="evaluationDisabledSubTitle"
+				 extends="fs25_textDefault">
+			<position value="220px 500px" />
+			<size value="420px 30px" />
+			<textSize value="18px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="evaluationDisabledRequirement"
+				 extends="fs25_textDefault">
+			<position value="220px 460px" />
+			<size value="420px 30px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationDisabledRequirement2"
+				 extends="fs25_textDefault">
+			<position value="220px 430px" />
+			<size value="420px 30px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationDisabledRequirement3"
+				 extends="fs25_textDefault">
+			<position value="220px 400px" />
+			<size value="420px 30px" />
+			<textSize value="18px" />
+		</Profile>
+		
+		<Profile name="evaluationDisabledInfoTitle"
+				 extends="fs25_textDefault">
+			<position value="950px 620px" />
+			<size value="420px 30px" />
+			<textSize value="20px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="evaluationDisabledInfo1"
+				 extends="fs25_textDefault">
+			<position value="950px 570px" />
+			<size value="420px 40px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationDisabledInfo2"
+				 extends="fs25_textDefault">
+			<position value="950px 490px" />
+			<size value="420px 40px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationDisabledInfo3"
+				 extends="fs25_textDefault">
+			<position value="950px 410px" />
+			<size value="420px 40px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationDisabledInfo4"
+				 extends="fs25_textDefault">
+			<position value="950px 330px" />
+			<size value="420px 40px" />
+			<textSize value="18px" />
+		</Profile>
+		
+		<Profile name="evaluationDisabledInfo5"
+				 extends="fs25_textDefault">
+			<position value="950px 260px" />
+			<size value="500px 30px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="evaluationDisabledInfo6"
+				 extends="fs25_textDefault">
+			<position value="950px 180px" />
+			<size value="500px 30px" />
+			<textSize value="18px" />
+		</Profile>
+	
+	<!-- FELDANALYSE -->
+
+		<Profile name="fieldAnalysisTitle"
+				 extends="fs25_textDefault">
+			<position value="220px 700px" />
+			<size value="420px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="fieldLabel1"
+				 extends="fs25_textDefault">
+			<position value="220px 620px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="fieldValue1"
+				 extends="fs25_textDefault">
+			<position value="220px 580px" />
+			<size value="500px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="fieldLabel2"
+				 extends="fs25_textDefault">
+			<position value="220px 500px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="fieldValue2"
+				 extends="fs25_textDefault">
+			<position value="220px 460px" />
+			<size value="500px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="fieldLabel3"
+				 extends="fs25_textDefault">
+			<position value="220px 380px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="fieldValue3"
+				 extends="fs25_textDefault">
+			<position value="220px 340px" />
+			<size value="500px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="fieldLabel4"
+				 extends="fs25_textDefault">
+			<position value="220px 260px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="fieldValue4"
+				 extends="fs25_textDefault">
+			<position value="220px 220px" />
+			<size value="500px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="fieldLabel5"
+				 extends="fs25_textDefault">
+			<position value="220px 140px" />
+			<textSize value="18px" />
+		</Profile>
+
+		<Profile name="fieldValue5"
+				 extends="fs25_textDefault">
+			<position value="220px 100px" />
+			<size value="500px 40px" />
+			<textSize value="24px" />
+			<textBold value="true" />
+		</Profile>
+
+		<Profile name="fieldInfoTitle"
+				 extends="fs25_textDefault">
+			<position value="950px 620px"/>
+			<size value="500px 30px"/>
+			<textSize value="20px"/>
+			<textBold value="true"/>
+		</Profile>
+
+		<Profile name="fieldInfo1"
+				 extends="fs25_textDefault">
+			<position value="950px 540px"/>
+			<size value="500px 90px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="fieldInfo2"
+				 extends="fs25_textDefault">
+			<position value="950px 390px"/>
+			<size value="500px 70px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="fieldInfo3"
+				 extends="fs25_textDefault">
+			<position value="950px 260px"/>
+			<size value="500px 70px"/>
+			<textSize value="18px"/>
+		</Profile>
+	
+	<!-- PAGE NAVIGATION -->
+
+		<Profile name="pageTitle"
+				 extends="fs25_textDefault">
+			<position value="210px 790px" />
+			<size value="600px 30px" />
+			<textSize value="22px" />
+			<textBold value="true" />
+			<textAlignment value="left" />
+	</Profile>
+
+	
+    </GUIProfiles>
+
+</GUI>
