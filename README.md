@@ -29,4 +29,4 @@ Bug reports and feature requests are welcome via GitHub Issues.
 
 All rights reserved.
 
-Copyright (c) 2026 Benjamin Horstmann
+Copyright (c) 2026 Benjamin Horstmann (Narbenstahl)
