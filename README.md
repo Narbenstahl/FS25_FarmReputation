@@ -37,16 +37,31 @@ A reputation and progression system for **Farming Simulator 25** that rewards de
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-> Screenshots will be added soon.
+### Career
 
-Example:
+![Career](docs/images/Career.png)
 
-```
-docs/images/menu.png
-docs/images/contracts.png
-docs/images/progress.png
+### Contractors
+
+![Contractors](docs/images/Contractors.png)
+
+### Farm Evaluation
+
+![Farm Evaluation](docs/images/Farm%20Evaluation.png)
+
+### Field Analysis
+
+![Field Analysis](docs/images/Field%20Analysis.png)
+
+### Unlocks
+
+![Unlocks](docs/images/Unlocks.png)
+
+### Clean Gameplay HUD
+
+![HUD](docs/images/Clean_Gameplay_mit_FarmReputation_HUD.png)
 ```
 
 ---
