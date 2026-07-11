@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8'?>
+<l10n>
+    <texts>
+	
+	    
+    
+    
+
+    <text name="input_FR_PREVIOUS_PAGE" text="Page précédente" />
+    <text name="input_FR_NEXT_PAGE" text="Page suivante" />
+    <text name="input_FR_CONTRACTOR_UP" text="Donneur d'ordre précédent" />
+    <text name="input_FR_CONTRACTOR_DOWN" text="Donneur d'ordre suivant" />
+
+
+    
+    
+    
+
+    <text name="fr_menu_title" text="FARM REPUTATION" />
+    <text name="fr_menuTitle" text="Farm Reputation" />
+
+    <text name="fr_information" text="Informations" />
+    <text name="fr_benefits" text="AVANTAGES" />
+
+    <text name="fr_unknown" text="Inconnu" />
+    <text name="fr_unknownContractor" text="Donneur d'ordre inconnu" />
+
+    <text name="fr_noContractors" text="Aucun donneur d'ordre" />
+
+    <text name="fr_currency" text="€" />
+    <text name="fr_percent" text="%" />
+    <text name="fr_rep" text="REP" />
+
+    <text name="fr_unlimited" text="Illimité" />
+    <text name="fr_unlimitedContractValue" text="Valeur de contrat illimitée" />
+    <text name="fr_maximum" text="Maximum" />
+
+    <text name="fr_jobs_50plus" text="50+" />
+
+    <text name="fr_akfDisabled" text="AKF désactivé" />
+
+    <text name="fr_status_active" text="ACTIF" />
+    <text name="fr_status_missing" text="MANQUANT" />
+	
+	
+    
+    
+
+    <text name="fr_page_career" text="Carrière" />
+    <text name="fr_page_unlocks" text="Déblocages" />
+    <text name="fr_page_contractors" text="Donneurs d'ordre" />
+    <text name="fr_page_farmEvaluation" text="Évaluation de l'exploitation" />
+    <text name="fr_page_fieldAnalysis" text="Analyse des champs" />
+
+
+    
+    
+    
+
+    <text name="fr_careerTitle" text="CARRIÈRE" />
+
+    <text name="fr_currentRank" text="Rang actuel" />
+    <text name="fr_reputation" text="Réputation" />
+
+    <text name="fr_currentBenefits" text="AVANTAGES ACTUELS" />
+
+    <text name="fr_maxActiveContracts" text="Contrats actifs max." />
+    <text name="fr_maxContractValue" text="Valeur max. des contrats" />
+    <text name="fr_rewardBonus" text="Bonus de rémunération" />
+
+    <text name="fr_rank_max" text="Rang maximal" />
+	
+	
+    
+    
+
+    <text name="fr_unlockTitle" text="DÉBLOCAGES" />
+
+    <text name="fr_unlocked" text="Débloqué :" />
+    <text name="fr_nextRank" text="Rang suivant" />
+    <text name="fr_willUnlock" text="Se débloquera :" />
+
+
+    
+    
+    
+
+    <text name="fr_contractorsTitle" text="DONNEURS D'ORDRE" />
+
+    <text name="fr_accepted" text="Acceptés" />
+    <text name="fr_completed" text="Terminés" />
+    <text name="fr_cancelled" text="Annulés" />
+
+    <text name="fr_ownLimit" text="Limite personnelle" />
+    <text name="fr_bonusContractor" text="Bonus donneur d'ordre" />
+    <text name="fr_totalLimit" text="Limite totale" />
+
+    <text name="fr_contractor" text="Donneurs d'ordre" />
+
+    <text name="fr_contractorRank_newCustomer" text="Nouveau client" />
+    <text name="fr_contractorRank_satisfiedCustomer" text="Client satisfait" />
+    <text name="fr_contractorRank_regularCustomer" text="Client fidèle" />
+    <text name="fr_contractorRank_businessPartner" text="Partenaire commercial" />
+	
+	
+    
+    
+
+    <text name="fr_rank_farmHelper" text="Aide agricole" />
+    <text name="fr_rank_farmer" text="Agriculteur" />
+    <text name="fr_rank_contractFarmer" text="Entrepreneur agricole" />
+    <text name="fr_rank_largeContractFarmer" text="Grand entrepreneur agricole" />
+    <text name="fr_rank_agriculturalContractor" text="Prestataire agricole" />
+    <text name="fr_rank_largeFarm" text="Grande exploitation" />
+
+
+    
+    
+    
+
+    <text name="fr_farmEvaluationTitle" text="ÉVALUATION DE L'EXPLOITATION" />
+
+    <text name="fr_lastEvaluation" text="Dernière évaluation" />
+    <text name="fr_farmRating" text="Évaluation de l'exploitation" />
+    <text name="fr_farmStatus" text="Statut de l'exploitation" />
+    <text name="fr_reputationChange" text="Changement de réputation" />
+
+    <text name="fr_noEvaluation" text="Aucune évaluation" />
+    <text name="fr_year" text="Année" />
+	
+	<text name="fr_evaluationInfo1" text="Die Betriebsbewertung wird automatisch&#10;zu Beginn von März, Juni,&#10;September und Dezember&#10;durchgeführt." />
+
+	<text name="fr_evaluationInfo2" text="Alle Felder deines Betriebs&#10;werden bewertet." />
+
+	<text name="fr_evaluationInfo3" text="Je nach Ergebnis gewinnst&#10;oder verlierst du Reputation." />
+
+    
+
+    <text name="fr_farmRank_exemplaryFarm" text="Exploitation exemplaire" />
+    <text name="fr_farmRank_respectedFarm" text="Exploitation réputée" />
+    <text name="fr_farmRank_solidFarm" text="Exploitation solide" />
+    <text name="fr_farmRank_needsImprovement" text="À améliorer" />
+    <text name="fr_farmRank_problemFarm" text="Exploitation problématique" />
+	
+	
+    
+    
+
+    <text name="fr_evaluationDisabledTitle" text="ÉVALUATION DE L'EXPLOITATION DÉSACTIVÉE" />
+    <text name="fr_evaluationDisabledText" text="L'évaluation de l'exploitation n'est actuellement pas disponible." />
+
+    <text name="fr_requiredGameOptions" text="Options de jeu requises" />
+
+    <text name="fr_requirement_plowing" text="Labour" />
+	<text name="fr_requirement_stones" text="Pierres" />
+	<text name="fr_requirement_weeds" text="Mauvaises herbes" />
+
+    <text name="fr_evaluationDisabledInfo1" text="- Quartalsweise Betriebsbewertungen" />
+    <text name="fr_evaluationDisabledInfo2" text="- Detaillierte Feldanalyse" />
+    <text name="fr_evaluationDisabledInfo3" text="- Reputationsänderungen durch Feldpflege" />
+    <text name="fr_evaluationDisabledInfo4" text="- Langfristige Betriebsbewertung" />
+
+
+    
+    
+    
+
+    <text name="fr_fieldAnalysisUnavailableTitle" text="ANALYSE DES CHAMPS INDISPONIBLE" />
+    <text name="fr_fieldAnalysisUnavailableText" text="L'analyse des champs n'est actuellement pas disponible." />
+
+    <text name="fr_fieldAnalysisUnavailableInfo1" text="- Übersicht aller eigenen Felder" />
+    <text name="fr_fieldAnalysisUnavailableInfo2" text="- Unkrautstatus aller Felder" />
+    <text name="fr_fieldAnalysisUnavailableInfo3" text="- Steinzustand aller Felder" />
+    <text name="fr_fieldAnalysisUnavailableInfo4" text="- Kalkstatus aller Felder" />
+    <text name="fr_fieldAnalysisUnavailableInfo5" text="- Düngezustand aller Felder" />
+    <text name="fr_fieldAnalysisUnavailableInfo6" text="- Pflugstatus aller Felder" />
+
+
+    
+    
+    
+
+    <text name="fr_fieldAnalysisTitle" text="ANALYSE DES CHAMPS" />
+
+    <text name="fr_weeds" text="Mauvaises herbes" />
+    <text name="fr_stones" text="Pierres" />
+    <text name="fr_lime" text="Chaulage" />
+    <text name="fr_fertilization" text="Fertilisation" />
+    <text name="fr_plowing" text="Labour" />
+
+    <text name="fr_note" text="Remarque" />
+
+    <text name="fr_fieldAnalysis_clean" text="%d von %d Feldern sauber" />
+    <text name="fr_fieldAnalysis_stoneFree" text="%d von %d Feldern steinfrei" />
+    <text name="fr_fieldAnalysis_limed" text="%d von %d Feldern gekalkt" />
+    <text name="fr_fieldAnalysis_fertilized" text="%d von %d Feldern optimal gedüngt" />
+    <text name="fr_fieldAnalysis_plowed" text="%d von %d Feldern gepflügt" />
+
+    <text name="fr_fieldInfo1" text="Die Feldanalyse zeigt den&#10;aktuellen Zustand aller&#10;eigenen Felder." />
+
+    <text name="fr_fieldInfo2" text="Es werden nur Kriterien&#10;angezeigt, die in die&#10;Betriebsbewertung&#10;einfließen." />
+
+    <text name="fr_fieldInfo3" text="Verbessere diese Werte,&#10;um bei der nächsten&#10;Quartalsbewertung mehr&#10;Reputation zu erhalten." />
+	
+	
+    
+    
+
+    <text name="fr_hud_contracts" text="Contrats" />
+
+
+    
+    
+    
+
+    <text name="fr_notification_rankUpTitle" text="FARM REPUTATION - RANGAUFSTIEG" />
+    <text name="fr_notification_rankDownTitle" text="FARM REPUTATION - RANGABSTIEG" />
+    <text name="fr_notification_bonusTitle" text="FARM REPUTATION - BONUS" />
+
+    <text name="fr_notification_addedContracts" text="+ Aufträge" />
+    <text name="fr_notification_removedContracts" text="- Aufträge" />
+
+    <text name="fr_notification_addedContractValue" text="+ Auftragswert" />
+    <text name="fr_notification_removedContractValue" text="- Auftragswert" />
+
+
+    
+    
+    
+
+    <text name="fr_contractLocked" text="Auftrag gesperrt" />
+    <text name="fr_maxActiveContractsReached" text="Maximale Anzahl aktiver Aufträge erreicht" />
+
+
+    
+    
+    
+
+    <text name="fr_rank" text="Rang" />
+    <text name="fr_current" text="Actuel" />
+    <text name="fr_contracts" text="Contrats" />
+    <text name="fr_activeContracts" text="Contrats actifs" />
+    <text name="fr_contractValue" text="Valeur du contrat" />
+    <text name="fr_bonus" text="Bonus" />
+
+    <text name="fr_currentLimit" text="Dein aktuelles Limit" />
+    <text name="fr_status" text="Statut" />
+    <text name="fr_progress" text="Progression" />
+    <text name="fr_nextLevel" text="Niveau suivant" />
+
+    <text name="fr_missing" text="Manquant" />
+
+
+    
+    
+    
+
+    <text name="fr_month_march" text="Mars" />
+    <text name="fr_month_june" text="Juin" />
+    <text name="fr_month_september" text="Septembre" />
+    <text name="fr_month_december" text="Décembre" />
+	
+    </texts>
+</l10n>
