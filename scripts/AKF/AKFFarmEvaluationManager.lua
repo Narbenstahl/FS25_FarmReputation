@@ -6,6 +6,9 @@ AKFFarmEvaluationManager = {}
 
 AKFFarmEvaluationManager.lastKnownPeriod = -1
 
+AKFFarmEvaluationManager.pendingEvaluation = false
+AKFFarmEvaluationManager.pendingEvaluationDay = nil
+
 AKFFarmEvaluationManager.lastEvaluationPeriod = 0
 AKFFarmEvaluationManager.lastEvaluationYear = 0
 AKFFarmEvaluationManager.lastFarmScore = 0
@@ -320,8 +323,53 @@ function AKFFarmEvaluationManager.checkMonth(month)
         return
     end
 
-    AKFFarmEvaluationManager.evaluate()
+    AKFFarmEvaluationManager.pendingEvaluation = true
+    AKFFarmEvaluationManager.pendingEvaluationDay =
+        g_currentMission.environment.currentDay
 
-    AKFFarmEvaluationManager.lastEvaluationPeriod = month
+    --Logging.info(
+    --    "[AKF] Quartalsbewertung für 08:00 vorgemerkt."
+    --)
+
+end
+
+function AKFFarmEvaluationManager.update()
+
+    if not AKFFarmEvaluationManager.pendingEvaluation then
+        return
+    end
+
+    local env = g_currentMission.environment
+
+    if env == nil then
+        return
+    end
+
+    if env.currentDay ~= AKFFarmEvaluationManager.pendingEvaluationDay then
+        return
+    end
+
+    local currentHour =
+        g_currentMission.environment.dayTime / (60 * 60 * 1000)
+
+    if currentHour < 8 or currentHour >= 9 then
+        return
+    end
+
+    AKFFarmEvaluationManager.pendingEvaluation = false
+
+	--Logging.info(
+	--	"[AKF] Starte Quartalsbewertung um 08:00 Uhr."
+	--)
+	
+	--Logging.info(
+	--	"[AKF] Uhrzeit %.2f",
+	--	currentHour
+	--)
+	
+	AKFFarmEvaluationManager.evaluate()
+
+	AKFFarmEvaluationManager.lastEvaluationPeriod =
+		env.currentPeriod
 
 end

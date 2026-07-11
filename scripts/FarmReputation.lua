@@ -6,9 +6,9 @@ FarmReputation = {
 
 function FarmReputation:loadMap()
 
-    FRDebug.log(
-        "FarmReputation LOADMAP"
-    )
+    --FRDebug.log(
+    --    "FarmReputation LOADMAP"
+    --)
 
 end
 
@@ -25,6 +25,8 @@ function FarmReputation:update(dt)
     AKFFarmEvaluationManager.checkMonth(
         month
     )
+
+    AKFFarmEvaluationManager.update()
 
 end
 
