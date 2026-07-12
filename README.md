@@ -64,8 +64,6 @@ A reputation and progression system for **Farming Simulator 25** that rewards de
 ![HUD](docs/images/Clean_Gameplay_mit_FarmReputation_HUD.png)
 ```
 
----
-
 # 📥 Installation
 
 1. Download the latest release.
