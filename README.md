@@ -64,14 +64,13 @@ A reputation and progression system for **Farming Simulator 25** that rewards de
 ![HUD](docs/images/Clean_Gameplay_mit_FarmReputation_HUD.png)
 ```
 
----
-
 # 📥 Installation
 
 1. Download the latest release.
 2. Copy **FS25_FarmReputation.zip** into:
 
 ```
+```text
 Documents
 └── My Games
     └── FarmingSimulator2025
