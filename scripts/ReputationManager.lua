@@ -202,7 +202,11 @@ end
         ReputationManager.reputationByFarm[
             farmId
         ] + amount
-
+	
+	if FarmReputation.autoSaveManager ~= nil then
+		FarmReputation.autoSaveManager:markDirty()
+	end
+	
     local newRank =
         ReputationManager.getRankData()
 
@@ -253,7 +257,11 @@ end
         ] = 0
 
     end
-
+	
+	if FarmReputation.autoSaveManager ~= nil then
+		FarmReputation.autoSaveManager:markDirty()
+	end
+	
     local newRank =
         ReputationManager.getRankData()
 
@@ -394,7 +402,11 @@ end
 		contractorData.reputation =
 			contractorData.reputation +
 			(reputation or 0)
-
+	
+		if FarmReputation.autoSaveManager ~= nil then
+			FarmReputation.autoSaveManager:markDirty()
+		end
+		
 	end
 
 	-------------------------------------------------
@@ -422,7 +434,11 @@ end
 				0,
 				contractorData.reputation - 5
 			)
-
+		
+		if FarmReputation.autoSaveManager ~= nil then
+			FarmReputation.autoSaveManager:markDirty()
+		end
+		
 	end
 
 	-------------------------------------------------
@@ -657,7 +673,11 @@ end
 	][
     contractorName
 	] = currentJobs
-
+	
+		if FarmReputation.autoSaveManager ~= nil then
+			FarmReputation.autoSaveManager:markDirty()
+		end
+	
 	end
 
 	-------------------------------------------------

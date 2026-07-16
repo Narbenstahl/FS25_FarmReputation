@@ -794,7 +794,7 @@ end
 
 				{
 					inputAction = InputAction.FR_PREVIOUS_PAGE,
-					text = "input_FR_PREVIOUS_PAGE",
+					text = g_i18n:getText("input_FR_PREVIOUS_PAGE"),
 					callback = function()
 						self:previousPage()
 					end
@@ -802,7 +802,7 @@ end
 
 				{
 					inputAction = InputAction.FR_NEXT_PAGE,
-					text = "input_FR_NEXT_PAGE",
+					text = g_i18n:getText("input_FR_NEXT_PAGE"),
 					callback = function()
 						self:nextPage()
 					end
@@ -810,7 +810,7 @@ end
 
 				{
 					inputAction = InputAction.FR_CONTRACTOR_UP,
-					text = "input_FR_CONTRACTOR_UP",
+					text = g_i18n:getText("input_FR_CONTRACTOR_UP"),
 					callback = function()
 
 						self.selectedContractorIndex =
@@ -826,7 +826,7 @@ end
 
 				{
 					inputAction = InputAction.FR_CONTRACTOR_DOWN,
-					text = "input_FR_CONTRACTOR_DOWN",
+					text = g_i18n:getText("input_FR_CONTRACTOR_DOWN"),
 					callback = function()
 
 						self.selectedContractorIndex =
@@ -852,7 +852,7 @@ end
 
 				{
 					inputAction = InputAction.FR_PREVIOUS_PAGE,
-					text = "input_FR_PREVIOUS_PAGE",
+					text = g_i18n:getText("input_FR_PREVIOUS_PAGE"),
 					callback = function()
 						self:previousPage()
 					end
@@ -860,7 +860,7 @@ end
 
 				{
 					inputAction = InputAction.FR_NEXT_PAGE,
-					text = "input_FR_NEXT_PAGE",
+					text = g_i18n:getText("input_FR_NEXT_PAGE"),
 					callback = function()
 						self:nextPage()
 					end

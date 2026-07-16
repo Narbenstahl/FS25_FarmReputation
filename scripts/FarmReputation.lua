@@ -1,14 +1,14 @@
 FarmReputation = {
 
-    hudEditMode = false
+    hudEditMode = false,
+	autoSaveManager = nil
 
 }
 
 function FarmReputation:loadMap()
 
-    --FRDebug.log(
-    --    "FarmReputation LOADMAP"
-    --)
+    self.autoSaveManager =
+        FRAutoSaveManager.new()
 
 end
 
@@ -28,8 +28,11 @@ function FarmReputation:update(dt)
 
     AKFFarmEvaluationManager.update()
 
-end
+    if self.autoSaveManager ~= nil then
+        self.autoSaveManager:update(dt)
+    end
 
+end
 
 function FarmReputation:keyEvent(
     unicode,

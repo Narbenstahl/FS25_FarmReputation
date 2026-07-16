@@ -3,7 +3,7 @@
 <modDesc descVersion="110">
 
     <author>Narbenstahl</author>
-    <version>1.0.0.2</version>
+    <version>1.0.0.3</version>
 	
 	<multiplayer supported="true"/>
 
@@ -168,6 +168,7 @@ Compatibilité :
 		<sourceFile filename="scripts/AKF/AKFFieldAnalyzer.lua"/>
 		<sourceFile filename="scripts/AKF/AKFFarmEvaluationManager.lua"/>
 		<sourceFile filename="scripts/SavegameManager.lua"/>
+		<sourceFile filename="scripts/FRAutoSaveManager.lua"/>
 		<sourceFile filename="scripts/AKF/AKFDebug.lua"/>
     </extraSourceFiles>
 	

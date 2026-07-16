@@ -73,29 +73,6 @@ end
 
     local display =
         self.gameInfoDisplay
-		
-		local iconPath =
-    Utils.getFilename(
-        "textures/farmer_icon.dds",
-        modDirectory
-    )
-
-	display.farmRepIcon =
-		Overlay.new(
-			iconPath,
-			0,
-			0,
-			0.02,
-			0.02
-    )
-	
-	GameInfoDisplay.farmRepIcon =
-    display.farmRepIcon
-
-	frPrint(
-		"ICON LOADED: "
-		.. tostring(display.farmRepIcon ~= nil)
-	)
 
    
 
@@ -164,13 +141,12 @@ function FarmReputationDisplay:draw(
 	end
 
 	local missionText =
-		g_i18n:getText("fr_hud_contracts")
-		.. ": "
-		.. tostring(activeMissions)
-		.. "/"
-		.. tostring(
-			ReputationManager.getMissionLimit()
-		)
+    string.format(
+        "%d / %d %s",
+        activeMissions,
+        ReputationManager.getMissionLimit(),
+        g_i18n:getText("fr_hud_contracts")
+    )
 
     -------------------------------------------------
     -- REFERENCE POSITION
@@ -208,7 +184,7 @@ function FarmReputationDisplay:draw(
 	drawFilledRect(
     leftSeparatorX,
     baseY,
-    self:scalePixelToScreenWidth(300),
+    self:scalePixelToScreenWidth(210),
     self:scalePixelToScreenHeight(65),
     0,
     0,
@@ -221,7 +197,7 @@ function FarmReputationDisplay:draw(
 	-------------------------------------------------
 
 	local hudWidth =
-		self:scalePixelToScreenWidth(300)
+		self:scalePixelToScreenWidth(210)
 
 	local hudHeight =
 		self:scalePixelToScreenHeight(65)
@@ -322,100 +298,17 @@ function FarmReputationDisplay:draw(
 	local borderColor = 0.35
 	local borderAlpha = 0.85
 
-	-- oben
-	--drawLine2D(
-	--	leftSeparatorX,
-	--	baseY + hudHeight,
-	--	leftSeparatorX + hudWidth,
-	--	baseY + hudHeight,
-	--	1,
-	--	borderColor,
-	--	borderColor,
-	--	borderColor,
-	--	borderAlpha
-	--)
-	
-	-- unten
-	--drawLine2D(
-	--	leftSeparatorX,
-	--	baseY,
-	--	leftSeparatorX + hudWidth,
-	--	baseY,
-	--	1,
-	--	borderColor,
-	--	borderColor,
-	--	borderColor,
-	--	borderAlpha
-	--)
-
-	-- links
-	--drawLine2D(
-	--	leftSeparatorX,
-	--	baseY,
-	--	leftSeparatorX,
-	--	baseY + hudHeight,
-	--	1,
-	--	borderColor,
-	--	borderColor,
-	--	borderColor,
-	--	borderAlpha
-	--)
-
-	-- rechts
-	--drawLine2D(
-	--	leftSeparatorX + hudWidth,
-	--	baseY,
-	--	leftSeparatorX + hudWidth,
-	--	baseY + hudHeight,
-	--	1,
-	--	borderColor,
-	--	borderColor,
-	--	borderColor,
-	--	borderAlpha
-	--)
-	
-	-------------------------------------------------
-	-- ICON
-	-------------------------------------------------
-
-	local iconSize =
-    self:scalePixelToScreenHeight(55)
-
-	local iconX =
-    leftSeparatorX
-    + self:scalePixelToScreenWidth(8)
-
-	local iconY =
-    baseY
-    + self:scalePixelToScreenHeight(2)
-
-	if GameInfoDisplay.farmRepIcon ~= nil then
-
-    GameInfoDisplay.farmRepIcon:setDimension(
-        iconSize,
-        iconSize
-    )
-
-    GameInfoDisplay.farmRepIcon:setPosition(
-        iconX,
-        iconY
-    )
-
-    GameInfoDisplay.farmRepIcon:render()
-
-end
-
     -------------------------------------------------
     -- TEXT POSITION
     -------------------------------------------------
 
     local posX =
         leftSeparatorX
-        + self:scalePixelToScreenWidth(110)
+        + self:scalePixelToScreenWidth(15)
 
     local posY =
     baseY
-    + self:scalePixelToScreenHeight(30)
+    + self:scalePixelToScreenHeight(28)
 
     -------------------------------------------------
     -- TEXT
@@ -429,7 +322,7 @@ end
 
     renderText(
         posX,
-        posY + self:scalePixelToScreenHeight(11),
+        posY + self:scalePixelToScreenHeight(13),
         self:scalePixelToScreenHeight(14),
         rank
     )
@@ -437,21 +330,21 @@ end
 	setTextBold(false)
 
     renderText(
-        posX,
-        posY
-        - self:scalePixelToScreenHeight(11),
-        self:scalePixelToScreenHeight(12),
-        tostring(currentRep)
-		.. "/"
-		.. tostring(nextTarget)
-		.. " "
-		.. g_i18n:getText("fr_rep")
+		posX,
+		posY - self:scalePixelToScreenHeight(9),
+		self:scalePixelToScreenHeight(12),
+		string.format(
+			"%d / %d %s",
+			currentRep,
+			nextTarget,
+			g_i18n:getText("fr_rep")
 		)
+	)
 
     renderText(
         posX,
         posY
-        - self:scalePixelToScreenHeight(22),
+        - self:scalePixelToScreenHeight(25),
         self:scalePixelToScreenHeight(12),
         missionText
     )
