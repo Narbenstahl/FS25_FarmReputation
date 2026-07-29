@@ -10,6 +10,7 @@
     <title>
         <en>Farm Reputation</en>
         <de>Farm Reputation - Rufsystem</de>
+        <cz>Pověst farmy</cz>
     </title>
 
 	<description>
@@ -141,7 +142,50 @@ Compatibilité :
 • Compatible avec Precision Farming (non requis)
 • PC uniquement (Script Mod)
 ]]></fr>
-	
+
+	<cz><![CDATA[
+Pověst farmy rozšiřuje Farming Simulator 25 a Better Contracts o úplný systém pověsti a kariérního postupu, který přidává dlouhodobý pokrok a reálnější zážitek ze smluvních práv.
+
+Vytvořte si pověst jako zemědělec a jako spolehlivý zhotovitel, abyste odemkli lepší příležitosti v průběhu své kariéry.
+
+Vlastnosti:
+• Úplný systém kariérního postupu s více úrovněmi
+• Individuální pověst pro každého zhotovitele
+• Bonusy hodnoty smlouvy specifické pro zhotovitele
+• Systém pověsti farmy s dlouhodobým postupem
+• Čtvrtletní hodnocení farmy
+• Analýza polí
+• Odemkněte nové odměny s rostoucí pověstí
+• Zvyšte počet aktivních smluv
+• Odemkněte vyšší maximální hodnoty smluv
+• Získejte dodatečné bonusy na odměny ze smluv
+
+Jak to funguje:
+• Získejte pověst úspěšným dokončením smluv.
+• Získejte další pověst prostřednictvím pozitivního čtvrtletního hodnocení farmy.
+• Ztratте pověst zrušením smluv nebo špatným hodnocením farmy.
+• Každý zhotovitel má individuální pověst.
+• Vyšší pověst u zhotovitele odemyká vyšší limity hodnoty smlouvy pouze pro tohoto zhotovitele.
+• Vaše postavení v kariéře určuje vaše základní limity smluv, bonusy za odměny a maximální počet aktivních smluv.
+• Hodnocení farmy je založeno na správě plevelů, správě kamenů, hnojení, vápenování a orbě.
+
+Ovládání:
+• F9 - Posunout HUD pověsti
+• A - Předchozí stránka
+• D - Další stránka
+• Šipka nahoru - Vybrat předchozího zhotovitele
+• Šipka dolů - Vybrat dalšího zhotovitele
+
+Požadavky:
+• Better Contracts (poslední verze) je vyžadován.
+
+Kompatibilita:
+• Multiplayer podporován
+• Podporovány existující hry
+• Kompatibilní s Precision Farming (není vyžadován)
+• Pouze PC (Script Mod)
+]]></cz>
+
 	</description>
 	
     <iconFilename>icon_mod.dds</iconFilename>

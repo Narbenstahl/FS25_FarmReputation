@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<l10n>
+    <texts>
+
+		<!-- ========================================================= -->
+    <!-- Klávesové zkratky -->
+    <!-- ========================================================= -->
+
+    <text name="input_FR_PREVIOUS_PAGE" text="Předchozí stránka"/>
+    <text name="input_FR_NEXT_PAGE" text="Další stránka"/>
+    <text name="input_FR_CONTRACTOR_UP" text="Předchozí zhotovitel"/>
+    <text name="input_FR_CONTRACTOR_DOWN" text="Další zhotovitel"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Obecné -->
+    <!-- ========================================================= -->
+
+    <text name="fr_menu_title" text="POVĚST FARMY"/>
+    <text name="fr_menuTitle" text="Pověst farmy"/>
+
+    <text name="fr_information" text="Informace"/>
+    <text name="fr_benefits" text="VÝHODY"/>
+
+    <text name="fr_unknown" text="Neznámý"/>
+    <text name="fr_unknownContractor" text="Neznámý zhotovitel"/>
+    <text name="fr_noContractors" text="Zatím žádní zhotovitelé"/>
+
+    <text name="fr_currency" text="Kč"/>
+    <text name="fr_percent" text="%"/>
+    <text name="fr_rep" text="POVĚST"/>
+
+    <text name="fr_unlimited" text="Neomezeno"/>
+    <text name="fr_unlimitedContractValue" text="Neomezená hodnota smlouvy"/>
+    <text name="fr_maximum" text="Maximum"/>
+
+    <text name="fr_jobs_50plus" text="50+"/>
+
+    <text name="fr_akfDisabled" text="AKF vypnuto"/>
+
+    <text name="fr_status_active" text="AKTIVNÍ"/>
+    <text name="fr_status_missing" text="CHYBÍ"/>
+
+		<!-- ========================================================= -->
+    <!-- Stránky -->
+    <!-- ========================================================= -->
+
+    <text name="fr_page_career" text="Kariéra"/>
+    <text name="fr_page_unlocks" text="Odemknutí"/>
+    <text name="fr_page_contractors" text="Zhotovitelé"/>
+    <text name="fr_page_farmEvaluation" text="Hodnocení farmy"/>
+    <text name="fr_page_fieldAnalysis" text="Analýza polí"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Kariéra -->
+    <!-- ========================================================= -->
+
+    <text name="fr_careerTitle" text="KARIÉRA"/>
+
+    <text name="fr_currentRank" text="Současné postavení"/>
+    <text name="fr_reputation" text="Pověst"/>
+
+    <text name="fr_currentBenefits" text="SOUČASNÉ VÝHODY"/>
+
+    <text name="fr_maxActiveContracts" text="Max. aktivní smlouvy"/>
+    <text name="fr_maxContractValue" text="Max. hodnota smlouvy"/>
+    <text name="fr_rewardBonus" text="Bonus za odměnu"/>
+
+    <text name="fr_rank_max" text="Nejvyšší postavení"/>
+
+		<!-- ========================================================= -->
+    <!-- Odemknutí -->
+    <!-- ========================================================= -->
+
+    <text name="fr_unlockTitle" text="ODEMKNUTÍ"/>
+
+    <text name="fr_unlocked" text="Odemknuto:"/>
+    <text name="fr_nextRank" text="Další postavení"/>
+    <text name="fr_willUnlock" text="Odemkne se:"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Zhotovitelé -->
+    <!-- ========================================================= -->
+
+    <text name="fr_contractorsTitle" text="ZHOTOVITELÉ"/>
+
+    <text name="fr_accepted" text="Přijato"/>
+    <text name="fr_completed" text="Dokončeno"/>
+    <text name="fr_cancelled" text="Zrušeno"/>
+
+    <text name="fr_ownLimit" text="Vlastní limit"/>
+    <text name="fr_bonusContractor" text="Bonus limitu zhotovitele"/>
+    <text name="fr_totalLimit" text="Celkový limit"/>
+
+    <text name="fr_contractor" text="Zhotovitel"/>
+
+    <text name="fr_contractorRank_newCustomer" text="Nový zákazník"/>
+    <text name="fr_contractorRank_satisfiedCustomer" text="Spokojený zákazník"/>
+    <text name="fr_contractorRank_regularCustomer" text="Pravidelný zákazník"/>
+    <text name="fr_contractorRank_businessPartner" text="Obchodní partner"/>
+
+		<!-- ========================================================= -->
+    <!-- Postavení farmy -->
+    <!-- ========================================================= -->
+
+    <text name="fr_rank_farmHelper" text="Pomocník na farmě"/>
+    <text name="fr_rank_farmer" text="Farmář"/>
+    <text name="fr_rank_contractFarmer" text="Zhotovitel"/>
+    <text name="fr_rank_largeContractFarmer" text="Velký zhotovitel"/>
+    <text name="fr_rank_agriculturalContractor" text="Zemědělský zhotovitel"/>
+    <text name="fr_rank_largeFarm" text="Velká farma"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Hodnocení farmy -->
+    <!-- ========================================================= -->
+
+    <text name="fr_farmEvaluationTitle" text="HODNOCENÍ FARMY"/>
+
+    <text name="fr_lastEvaluation" text="Poslední hodnocení"/>
+    <text name="fr_farmRating" text="Hodnocení farmy"/>
+    <text name="fr_farmStatus" text="Stav farmy"/>
+    <text name="fr_reputationChange" text="Změna pověsti"/>
+
+    <text name="fr_noEvaluation" text="Žádné hodnocení"/>
+    <text name="fr_year" text="Rok"/>
+
+		<text name="fr_evaluationInfo1"
+			  text="Hodnocení farmy se provádí&#10;automaticky na začátku&#10;března, června, září a&#10;prosince."/>
+
+		<text name="fr_evaluationInfo2"
+			  text="Jsou hodnocena všechna pole&#10;patřící k vaší farmě."/>
+
+		<text name="fr_evaluationInfo3"
+			  text="Na základě výsledku&#10;získáte nebo ztratíte&#10;body pověsti."/>
+
+
+    <!-- Postavení hodnocení farmy -->
+
+    <text name="fr_farmRank_exemplaryFarm" text="Vzorová farma"/>
+    <text name="fr_farmRank_respectedFarm" text="Vážená farma"/>
+    <text name="fr_farmRank_solidFarm" text="Solidní farma"/>
+    <text name="fr_farmRank_needsImprovement" text="Potřebuje zlepšení"/>
+    <text name="fr_farmRank_problemFarm" text="Problematická farma"/>
+
+		<!-- ========================================================= -->
+    <!-- Hodnocení farmy vypnuto -->
+    <!-- ========================================================= -->
+
+    <text name="fr_evaluationDisabledTitle" text="HODNOCENÍ FARMY VYPNUTO"/>
+    <text name="fr_evaluationDisabledText" text="Hodnocení farmy není momentálně dostupné."/>
+
+    <text name="fr_requiredGameOptions" text="Požadované možnosti hry"/>
+
+    <text name="fr_requirement_plowing" text="Orba"/>
+	<text name="fr_requirement_stones" text="Kameny"/>
+	<text name="fr_requirement_weeds" text="Plevele"/>
+
+    <text name="fr_evaluationDisabledInfo1" text="- Čtvrtletní hodnocení farmy"/>
+    <text name="fr_evaluationDisabledInfo2" text="- Podrobná analýza polí"/>
+    <text name="fr_evaluationDisabledInfo3" text="- Změny pověsti na základě údržby polí"/>
+    <text name="fr_evaluationDisabledInfo4" text="- Dlouhodobé hodnocení farmy"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Analýza polí není dostupná -->
+    <!-- ========================================================= -->
+
+    <text name="fr_fieldAnalysisUnavailableTitle" text="ANALÝZA POLÍ NENÍ DOSTUPNÁ"/>
+    <text name="fr_fieldAnalysisUnavailableText" text="Analýza polí není momentálně dostupná."/>
+
+    <text name="fr_fieldAnalysisUnavailableInfo1" text="- Přehled všech vlastněných polí"/>
+    <text name="fr_fieldAnalysisUnavailableInfo2" text="- Stav plevelů všech polí"/>
+    <text name="fr_fieldAnalysisUnavailableInfo3" text="- Stav kamenů všech polí"/>
+    <text name="fr_fieldAnalysisUnavailableInfo4" text="- Stav vápna všech polí"/>
+    <text name="fr_fieldAnalysisUnavailableInfo5" text="- Stav hnojení všech polí"/>
+    <text name="fr_fieldAnalysisUnavailableInfo6" text="- Stav orby všech polí"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Analýza polí -->
+    <!-- ========================================================= -->
+
+    <text name="fr_fieldAnalysisTitle" text="ANALÝZA POLÍ"/>
+
+    <text name="fr_weeds" text="Plevele"/>
+    <text name="fr_stones" text="Kameny"/>
+    <text name="fr_lime" text="Vápno"/>
+    <text name="fr_fertilization" text="Hnojení"/>
+    <text name="fr_plowing" text="Orba"/>
+
+    <text name="fr_note" text="Poznámka"/>
+
+    <text name="fr_fieldAnalysis_clean" text="%d z %d polí je čistých"/>
+    <text name="fr_fieldAnalysis_stoneFree" text="%d z %d polí je bez kamenů"/>
+    <text name="fr_fieldAnalysis_limed" text="%d z %d polí je vápenato"/>
+    <text name="fr_fieldAnalysis_fertilized" text="%d z %d polí je optimálně hnojeno"/>
+    <text name="fr_fieldAnalysis_plowed" text="%d z %d polí je orané"/>
+
+    <text name="fr_fieldInfo1" text="Analýza polí ukazuje&#10;současný stav&#10;všech vašich polí."/>
+
+    <text name="fr_fieldInfo2" text="Zobrazeny jsou pouze&#10;kritéria, která se používají&#10;pro hodnocení&#10;farmy."/>
+
+    <text name="fr_fieldInfo3" text="Zlepšete tyto hodnoty,&#10;abyste si vylepšili&#10;pověst během příštího&#10;čtvrtletního hodnocení."/>
+
+		<!-- ========================================================= -->
+    <!-- HUD -->
+    <!-- ========================================================= -->
+
+    <text name="fr_hud_contracts" text="Smlouvy"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Oznámení -->
+    <!-- ========================================================= -->
+
+    <text name="fr_notification_rankUpTitle" text="POVĚST FARMY - POVÝŠENÍ"/>
+    <text name="fr_notification_rankDownTitle" text="POVĚST FARMY - SNÍŽENÍ"/>
+    <text name="fr_notification_bonusTitle" text="POVĚST FARMY - BONUS"/>
+
+    <text name="fr_notification_addedContracts" text="+ Smlouvy"/>
+    <text name="fr_notification_removedContracts" text="- Smlouvy"/>
+
+    <text name="fr_notification_addedContractValue" text="+ Hodnota smlouvy"/>
+    <text name="fr_notification_removedContractValue" text="- Hodnota smlouvy"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Dialogy -->
+    <!-- ========================================================= -->
+
+    <text name="fr_contractLocked" text="Smlouva uzamčena"/>
+    <text name="fr_maxActiveContractsReached" text="Dosažen maximální počet aktivních smluv"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Obecné pojmy -->
+    <!-- ========================================================= -->
+
+    <text name="fr_rank" text="Postavení"/>
+    <text name="fr_current" text="Současné"/>
+    <text name="fr_contracts" text="Smlouvy"/>
+    <text name="fr_activeContracts" text="Aktivní smlouvy"/>
+    <text name="fr_contractValue" text="Hodnota smlouvy"/>
+    <text name="fr_bonus" text="Bonus"/>
+
+    <text name="fr_currentLimit" text="Váš současný limit"/>
+    <text name="fr_status" text="Stav"/>
+    <text name="fr_progress" text="Pokrok"/>
+    <text name="fr_nextLevel" text="Další úroveň"/>
+
+    <text name="fr_missing" text="Chybí"/>
+
+
+    <!-- ========================================================= -->
+    <!-- Měsíce -->
+    <!-- ========================================================= -->
+
+    <text name="fr_month_march" text="březen"/>
+    <text name="fr_month_june" text="červen"/>
+    <text name="fr_month_september" text="září"/>
+    <text name="fr_month_december" text="prosinec"/>
+
+    </texts>
+</l10n>
