@@ -95,6 +95,10 @@
     <text name="fr_ownLimit" text="Eigenes Limit"/>
     <text name="fr_bonusContractor" text="Bonus Auftraggeber"/>
     <text name="fr_totalLimit" text="Gesamtlimit"/>
+	
+	<text name="fr_farmBonus" text="Farmbonus"/>
+	<text name="fr_contractorBonus" text="Auftraggeberbonus"/>
+	<text name="fr_totalBonus" text="Gesamtbonus"/>
 
     <text name="fr_contractor" text="Auftraggeber"/>
 
@@ -102,6 +106,10 @@
     <text name="fr_contractorRank_satisfiedCustomer" text="Zufriedener Kunde"/>
     <text name="fr_contractorRank_regularCustomer" text="Stammkunde"/>
     <text name="fr_contractorRank_businessPartner" text="Geschäftspartner"/>
+	
+	<text name="fr_rewardBonusTitle" text="Vergütungsbonus"/>
+	<text name="fr_farmBonus" text="Farmbonus"/>
+	<text name="fr_totalBonus" text="Gesamtbonus"/>
 	
 	<!-- ========================================================= -->
     <!-- Farm-Ränge -->
@@ -158,6 +166,10 @@
     <text name="fr_requirement_plowing" text="Pflügen"/>
 	<text name="fr_requirement_stones" text="Steine"/>
 	<text name="fr_requirement_weeds" text="Unkraut"/>
+	
+	<text name="fr_requirementPlowing" text="Pflügen"/>
+	<text name="fr_requirementStones" text="Steine"/>
+	<text name="fr_requirementWeeds" text="Unkraut"/>
 
     <text name="fr_evaluationDisabledInfo1" text="- Quartalsweise Betriebsbewertungen"/>
     <text name="fr_evaluationDisabledInfo2" text="- Detaillierte Feldanalyse"/>
@@ -246,7 +258,10 @@
     <text name="fr_activeContracts" text="Aktive Aufträge"/>
     <text name="fr_contractValue" text="Auftragswert"/>
     <text name="fr_bonus" text="Bonus"/>
-
+	
+	<text name="fr_reputationReward" text="Reputationsbelohnung"/>
+	<text name="fr_reputationPenalty" text="Reputationsabzug"/>
+	
     <text name="fr_currentLimit" text="Dein aktuelles Limit"/>
     <text name="fr_status" text="Status"/>
     <text name="fr_progress" text="Fortschritt"/>

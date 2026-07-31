@@ -128,13 +128,14 @@ function FarmReputationDisplay:draw(
 	local activeMissions = 0
 
 	for _, missionData in ipairs(
-    g_missionManager.missions
+		g_missionManager.missions
 	) do
 
-    if missionData.farmId == farmId then
+		if missionData.farmId == farmId
+		and missionData:getIsInProgress() then
 
-        activeMissions =
-            activeMissions + 1
+			activeMissions =
+				activeMissions + 1
 
 		end
 

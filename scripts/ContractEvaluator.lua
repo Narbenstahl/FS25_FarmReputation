@@ -63,7 +63,7 @@ ContractEvaluator.repMultipliers = {
 -- GET REP VALUE
 -------------------------------------------------
 
-local function getRepReward(mission)
+function ContractEvaluator.getRepReward(mission)
 
     if mission == nil then
         return 5
@@ -92,7 +92,7 @@ local function onMissionFinish(self, success)
     if success == MissionFinishState.SUCCESS then
 
         local rep =
-            getRepReward(self)
+            ContractEvaluator.getRepReward(self)
 
         if self.info ~= nil then
 
@@ -109,35 +109,47 @@ local function onMissionFinish(self, success)
 
         ReputationManager.add(rep)
 
--------------------------------------------------
--- REPUTATION BONUS
--------------------------------------------------
+	-------------------------------------------------
+	-- REPUTATION BONUS
+	-------------------------------------------------
 
-        local rewardBonus =
-            ReputationManager.getRewardBonus()
+	local farmBonus =
+		ReputationManager.getRewardBonus()
 
-        local bonus =
-            math.floor(
-                self:getReward()
-                * rewardBonus
-            )
+	local contractorBonus = 0
 
-        if bonus > 0 then
+	if self.info ~= nil then
+		contractorBonus =
+			ReputationManager.getContractorRewardBonus(
+				self.info.contractorName
+			)
+	end
 
-            g_currentMission:addMoney(
-                bonus,
-                g_currentMission:getFarmId(),
-                MoneyType.AI,
-                true
-            )
-			
-            RankNotificationManager.pendingRank =
+	local totalBonus =
+		farmBonus + contractorBonus
+
+	local bonus =
+		math.floor(
+			self:getReward()
+			* totalBonus
+		)
+
+	if bonus > 0 then
+
+		g_currentMission:addMoney(
+			bonus,
+			g_currentMission:getFarmId(),
+			MoneyType.AI,
+			true
+		)
+
+		RankNotificationManager.pendingRank =
 			ReputationManager.getRank()
 
-			RankNotificationManager.pendingBonus =
+		RankNotificationManager.pendingBonus =
 			bonus
 
-        end
+	end
 
 
     else

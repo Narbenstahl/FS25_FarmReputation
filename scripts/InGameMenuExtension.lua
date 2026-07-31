@@ -153,7 +153,9 @@ local function loadedMission()
     )
 
     frame:initialize()
-
+	
+	g_farmReputationFrame = frame
+	
     fixInGameMenu(
         frame,
         "FarmReputationFrame",

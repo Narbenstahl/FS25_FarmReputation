@@ -102,6 +102,10 @@
     <text name="fr_contractorRank_regularCustomer" text="Regular Customer"/>
     <text name="fr_contractorRank_businessPartner" text="Business Partner"/>
 	
+	<text name="fr_rewardBonusTitle" text="REWARD BONUS"/>
+	<text name="fr_farmBonus" text="Farm Bonus"/>
+	<text name="fr_totalBonus" text="Total Bonus"/>
+	
 	<!-- ========================================================= -->
     <!-- Farm Ranks -->
     <!-- ========================================================= -->
@@ -158,6 +162,10 @@
     <text name="fr_requirement_plowing" text="Plowing"/>
 	<text name="fr_requirement_stones" text="Stones"/>
 	<text name="fr_requirement_weeds" text="Weeds"/>
+	
+	<text name="fr_requirementPlowing" text="Plowing"/>
+	<text name="fr_requirementStones" text="Stones"/>
+	<text name="fr_requirementWeeds" text="Weeds"/>
 
     <text name="fr_evaluationDisabledInfo1" text="- Quarterly farm evaluations"/>
     <text name="fr_evaluationDisabledInfo2" text="- Detailed field analysis"/>
@@ -246,7 +254,10 @@
     <text name="fr_activeContracts" text="Active Contracts"/>
     <text name="fr_contractValue" text="Contract Value"/>
     <text name="fr_bonus" text="Bonus"/>
-
+	
+	<text name="fr_reputationReward" text="Reputation Reward"/>
+	<text name="fr_reputationPenalty" text="Reputation Penalty"/>
+	
     <text name="fr_currentLimit" text="Your Current Limit"/>
     <text name="fr_status" text="Status"/>
     <text name="fr_progress" text="Progress"/>

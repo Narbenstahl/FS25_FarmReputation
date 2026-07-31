@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<l10n>
+    <texts>
+	
+	<!-- ========================================================= -->
+	<!-- Input Actions -->
+	<!-- ========================================================= -->
+
+	<text name="input_FR_PREVIOUS_PAGE" text="Önceki Sayfa"/>
+	<text name="input_FR_NEXT_PAGE" text="Sonraki Sayfa"/>
+	<text name="input_FR_CONTRACTOR_UP" text="Önceki Müşteri"/>
+	<text name="input_FR_CONTRACTOR_DOWN" text="Sonraki Müşteri"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Genel -->
+	<!-- ========================================================= -->
+
+	<text name="fr_menu_title" text="FARM REPUTATION"/>
+	<text name="fr_menuTitle" text="Farm Reputation"/>
+
+	<text name="fr_information" text="Bilgi"/>
+	<text name="fr_benefits" text="AVANTAJLAR"/>
+
+	<text name="fr_unknown" text="Bilinmiyor"/>
+	<text name="fr_unknownContractor" text="Bilinmeyen Müşteri"/>
+
+	<text name="fr_noContractors" text="Henüz Müşteri Yok"/>
+
+	<text name="fr_currency" text="€"/>
+	<text name="fr_percent" text="%"/>
+	<text name="fr_rep" text="REP"/>
+
+	<text name="fr_unlimited" text="Sınırsız"/>
+	<text name="fr_unlimitedContractValue" text="Sınırsız Sözleşme Değeri"/>
+	<text name="fr_maximum" text="Maksimum"/>
+
+	<text name="fr_jobs_50plus" text="50+"/>
+
+	<text name="fr_akfDisabled" text="AKF Devre Dışı"/>
+
+	<text name="fr_status_active" text="AKTİF"/>
+	<text name="fr_status_missing" text="EKSİK"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Sayfalar -->
+	<!-- ========================================================= -->
+
+	<text name="fr_page_career" text="Kariyer"/>
+	<text name="fr_page_unlocks" text="Kilit Açmaları"/>
+	<text name="fr_page_contractors" text="Müşteriler"/>
+	<text name="fr_page_farmEvaluation" text="Çiftlik Değerlendirmesi"/>
+	<text name="fr_page_fieldAnalysis" text="Tarla Analizi"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Kariyer -->
+	<!-- ========================================================= -->
+
+	<text name="fr_careerTitle" text="KARİYER"/>
+
+	<text name="fr_currentRank" text="Mevcut Rütbe"/>
+	<text name="fr_reputation" text="İtibar"/>
+
+	<text name="fr_currentBenefits" text="MEVCUT AVANTAJLAR"/>
+
+	<text name="fr_maxActiveContracts" text="Maks. Aktif Sözleşme"/>
+	<text name="fr_maxContractValue" text="Maks. Sözleşme Değeri"/>
+	<text name="fr_rewardBonus" text="Ödül Bonusu"/>
+
+	<text name="fr_rank_max" text="Maksimum Rütbe"/>
+	
+	<!-- ========================================================= -->
+	<!-- Kilit Açmaları -->
+	<!-- ========================================================= -->
+
+	<text name="fr_unlockTitle" text="KİLİT AÇMALARI"/>
+
+	<text name="fr_unlocked" text="Kilidi Açıldı:"/>
+	<text name="fr_nextRank" text="Sonraki Rütbe"/>
+	<text name="fr_willUnlock" text="Kilidi Açılacak:"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Müşteriler -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractorsTitle" text="MÜŞTERİLER"/>
+
+	<text name="fr_accepted" text="Kabul Edildi"/>
+	<text name="fr_completed" text="Tamamlandı"/>
+	<text name="fr_cancelled" text="İptal Edildi"/>
+
+	<text name="fr_ownLimit" text="Kendi Limitiniz"/>
+	<text name="fr_bonusContractor" text="Müşteri Bonusu"/>
+	<text name="fr_totalLimit" text="Toplam Limit"/>
+
+	<text name="fr_farmBonus" text="Çiftlik Bonusu"/>
+	<text name="fr_contractorBonus" text="Müşteri Bonusu"/>
+	<text name="fr_totalBonus" text="Toplam Bonus"/>
+
+	<text name="fr_contractor" text="Müşteri"/>
+
+	<text name="fr_contractorRank_newCustomer" text="Yeni Müşteri"/>
+	<text name="fr_contractorRank_satisfiedCustomer" text="Memnun Müşteri"/>
+	<text name="fr_contractorRank_regularCustomer" text="Düzenli Müşteri"/>
+	<text name="fr_contractorRank_businessPartner" text="İş Ortağı"/>
+
+	<text name="fr_rewardBonusTitle" text="ÖDÜL BONUSU"/>
+	<text name="fr_farmBonus" text="Çiftlik Bonusu"/>
+	<text name="fr_totalBonus" text="Toplam Bonus"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Çiftlik Rütbeleri -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank_farmHelper" text="Çiftlik Yardımcısı"/>
+	<text name="fr_rank_farmer" text="Çiftçi"/>
+	<text name="fr_rank_contractFarmer" text="Sözleşmeli Çiftçi"/>
+	<text name="fr_rank_largeContractFarmer" text="Büyük Sözleşmeli Çiftçi"/>
+	<text name="fr_rank_agriculturalContractor" text="Tarım Müteahhidi"/>
+	<text name="fr_rank_largeFarm" text="Büyük Çiftlik"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Çiftlik Değerlendirmesi -->
+	<!-- ========================================================= -->
+
+	<text name="fr_farmEvaluationTitle" text="ÇİFTLİK DEĞERLENDİRMESİ"/>
+
+	<text name="fr_lastEvaluation" text="Son Değerlendirme"/>
+	<text name="fr_farmRating" text="Çiftlik Değerlendirmesi"/>
+	<text name="fr_farmStatus" text="Çiftlik Durumu"/>
+	<text name="fr_reputationChange" text="İtibar Değişikliği"/>
+
+	<text name="fr_noEvaluation" text="Değerlendirme Yok"/>
+	<text name="fr_year" text="Yıl"/>
+
+	<text name="fr_evaluationInfo1"
+		  text="Çiftlik değerlendirmesi&#10;her yıl Mart, Haziran,&#10;Eylül ve Aralık aylarının&#10;başında otomatik olarak yapılır."/>
+
+	<text name="fr_evaluationInfo2"
+		  text="Çiftliğinize ait tüm&#10;tarlalar değerlendirilir."/>
+
+	<text name="fr_evaluationInfo3"
+		  text="Sonuca göre itibar&#10;puanı kazanır veya&#10;kaybedersiniz."/>
+
+	<!-- Çiftlik Değerlendirme Seviyeleri -->
+
+	<text name="fr_farmRank_exemplaryFarm" text="Örnek Çiftlik"/>
+	<text name="fr_farmRank_respectedFarm" text="Saygın Çiftlik"/>
+	<text name="fr_farmRank_solidFarm" text="Sağlam Çiftlik"/>
+	<text name="fr_farmRank_needsImprovement" text="Geliştirme Gerekli"/>
+	<text name="fr_farmRank_problemFarm" text="Sorunlu Çiftlik"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Çiftlik Değerlendirmesi Devre Dışı -->
+	<!-- ========================================================= -->
+
+	<text name="fr_evaluationDisabledTitle" text="ÇİFTLİK DEĞERLENDİRMESİ DEVRE DIŞI"/>
+	<text name="fr_evaluationDisabledText" text="Çiftlik değerlendirmesi şu anda kullanılamıyor."/>
+
+	<text name="fr_requiredGameOptions" text="Gerekli Oyun Ayarları"/>
+
+	<text name="fr_requirement_plowing" text="Sürme"/>
+	<text name="fr_requirement_stones" text="Taşlar"/>
+	<text name="fr_requirement_weeds" text="Yabani Otlar"/>
+
+	<text name="fr_requirementPlowing" text="Sürme"/>
+	<text name="fr_requirementStones" text="Taşlar"/>
+	<text name="fr_requirementWeeds" text="Yabani Otlar"/>
+
+	<text name="fr_evaluationDisabledInfo1" text="- Üç aylık çiftlik değerlendirmeleri"/>
+	<text name="fr_evaluationDisabledInfo2" text="- Ayrıntılı tarla analizi"/>
+	<text name="fr_evaluationDisabledInfo3" text="- Tarla bakımına bağlı itibar değişiklikleri"/>
+	<text name="fr_evaluationDisabledInfo4" text="- Uzun vadeli çiftlik değerlendirmesi"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Tarla Analizi Kullanılamıyor -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisUnavailableTitle" text="TARLA ANALİZİ KULLANILAMIYOR"/>
+	<text name="fr_fieldAnalysisUnavailableText" text="Tarla analizi şu anda kullanılamıyor."/>
+
+	<text name="fr_fieldAnalysisUnavailableInfo1" text="- Sahip olduğunuz tüm tarlaların genel görünümü"/>
+	<text name="fr_fieldAnalysisUnavailableInfo2" text="- Tüm tarlalardaki yabani ot durumu"/>
+	<text name="fr_fieldAnalysisUnavailableInfo3" text="- Tüm tarlalardaki taş durumu"/>
+	<text name="fr_fieldAnalysisUnavailableInfo4" text="- Tüm tarlalardaki kireçleme durumu"/>
+	<text name="fr_fieldAnalysisUnavailableInfo5" text="- Tüm tarlalardaki gübreleme durumu"/>
+	<text name="fr_fieldAnalysisUnavailableInfo6" text="- Tüm tarlalardaki sürme durumu"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Tarla Analizi -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisTitle" text="TARLA ANALİZİ"/>
+
+	<text name="fr_weeds" text="Yabani Otlar"/>
+	<text name="fr_stones" text="Taşlar"/>
+	<text name="fr_lime" text="Kireçleme"/>
+	<text name="fr_fertilization" text="Gübreleme"/>
+	<text name="fr_plowing" text="Sürme"/>
+
+	<text name="fr_note" text="Not"/>
+
+	<text name="fr_fieldAnalysis_clean" text="%d / %d tarla temiz"/>
+	<text name="fr_fieldAnalysis_stoneFree" text="%d / %d tarla taşsız"/>
+	<text name="fr_fieldAnalysis_limed" text="%d / %d tarla kireçlenmiş"/>
+	<text name="fr_fieldAnalysis_fertilized" text="%d / %d tarla en uygun şekilde gübrelenmiş"/>
+	<text name="fr_fieldAnalysis_plowed" text="%d / %d tarla sürülmüş"/>
+
+	<text name="fr_fieldInfo1"
+		  text="Tarla analizi, sahip olduğunuz&#10;tüm tarlaların mevcut&#10;durumunu gösterir."/>
+
+	<text name="fr_fieldInfo2"
+		  text="Yalnızca çiftlik&#10;değerlendirmesinde dikkate&#10;alınan kriterler&#10;gösterilir."/>
+
+	<text name="fr_fieldInfo3"
+		  text="Bir sonraki üç aylık&#10;değerlendirmede daha fazla&#10;itibar kazanmak için&#10;bu değerleri iyileştirin."/>
+	
+	<!-- ========================================================= -->
+	<!-- HUD -->
+	<!-- ========================================================= -->
+
+	<text name="fr_hud_contracts" text="Sözleşmeler"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Bildirimler -->
+	<!-- ========================================================= -->
+
+	<text name="fr_notification_rankUpTitle" text="FARM REPUTATION - RÜTBE YÜKSELDİ"/>
+	<text name="fr_notification_rankDownTitle" text="FARM REPUTATION - RÜTBE DÜŞTÜ"/>
+	<text name="fr_notification_bonusTitle" text="FARM REPUTATION - BONUS"/>
+
+	<text name="fr_notification_addedContracts" text="+ Sözleşmeler"/>
+	<text name="fr_notification_removedContracts" text="- Sözleşmeler"/>
+
+	<text name="fr_notification_addedContractValue" text="+ Sözleşme Değeri"/>
+	<text name="fr_notification_removedContractValue" text="- Sözleşme Değeri"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Diyaloglar -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractLocked" text="Sözleşme Kilitli"/>
+	<text name="fr_maxActiveContractsReached" text="Maksimum aktif sözleşme sayısına ulaşıldı"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Genel Terimler -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank" text="Rütbe"/>
+	<text name="fr_current" text="Mevcut"/>
+	<text name="fr_contracts" text="Sözleşmeler"/>
+	<text name="fr_activeContracts" text="Aktif Sözleşmeler"/>
+	<text name="fr_contractValue" text="Sözleşme Değeri"/>
+	<text name="fr_bonus" text="Bonus"/>
+
+	<text name="fr_reputationReward" text="İtibar Ödülü"/>
+	<text name="fr_reputationPenalty" text="İtibar Kaybı"/>
+
+	<text name="fr_currentLimit" text="Mevcut Limitiniz"/>
+	<text name="fr_status" text="Durum"/>
+	<text name="fr_progress" text="İlerleme"/>
+	<text name="fr_nextLevel" text="Sonraki Seviye"/>
+
+	<text name="fr_missing" text="Eksik"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Aylar -->
+	<!-- ========================================================= -->
+
+	<text name="fr_month_march" text="Mart"/>
+	<text name="fr_month_june" text="Haziran"/>
+	<text name="fr_month_september" text="Eylül"/>
+	<text name="fr_month_december" text="Aralık"/>
+	
+    </texts>
+</l10n>

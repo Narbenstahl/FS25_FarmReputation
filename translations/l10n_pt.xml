@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<l10n>
+    <texts>
+	
+	<!-- ========================================================= -->
+	<!-- Ações de entrada -->
+	<!-- ========================================================= -->
+
+	<text name="input_FR_PREVIOUS_PAGE" text="Página anterior"/>
+	<text name="input_FR_NEXT_PAGE" text="Próxima página"/>
+	<text name="input_FR_CONTRACTOR_UP" text="Contratante anterior"/>
+	<text name="input_FR_CONTRACTOR_DOWN" text="Próximo contratante"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Geral -->
+	<!-- ========================================================= -->
+
+	<text name="fr_menu_title" text="FARM REPUTATION"/>
+	<text name="fr_menuTitle" text="Farm Reputation"/>
+
+	<text name="fr_information" text="Informações"/>
+	<text name="fr_benefits" text="BENEFÍCIOS"/>
+
+	<text name="fr_unknown" text="Desconhecido"/>
+	<text name="fr_unknownContractor" text="Contratante desconhecido"/>
+
+	<text name="fr_noContractors" text="Nenhum contratante ainda"/>
+
+	<text name="fr_currency" text="€"/>
+	<text name="fr_percent" text="%"/>
+	<text name="fr_rep" text="REP"/>
+
+	<text name="fr_unlimited" text="Ilimitado"/>
+	<text name="fr_unlimitedContractValue" text="Valor ilimitado do contrato"/>
+	<text name="fr_maximum" text="Máximo"/>
+
+	<text name="fr_jobs_50plus" text="50+"/>
+
+	<text name="fr_akfDisabled" text="AKF desativado"/>
+
+	<text name="fr_status_active" text="ATIVO"/>
+	<text name="fr_status_missing" text="AUSENTE"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Páginas -->
+	<!-- ========================================================= -->
+
+	<text name="fr_page_career" text="Carreira"/>
+	<text name="fr_page_unlocks" text="Desbloqueios"/>
+	<text name="fr_page_contractors" text="Contratantes"/>
+	<text name="fr_page_farmEvaluation" text="Avaliação da fazenda"/>
+	<text name="fr_page_fieldAnalysis" text="Análise dos campos"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Carreira -->
+	<!-- ========================================================= -->
+
+	<text name="fr_careerTitle" text="CARREIRA"/>
+
+	<text name="fr_currentRank" text="Classificação atual"/>
+	<text name="fr_reputation" text="Reputação"/>
+
+	<text name="fr_currentBenefits" text="BENEFÍCIOS ATUAIS"/>
+
+	<text name="fr_maxActiveContracts" text="Máx. contratos ativos"/>
+	<text name="fr_maxContractValue" text="Valor máx. do contrato"/>
+	<text name="fr_rewardBonus" text="Bônus de recompensa"/>
+
+	<text name="fr_rank_max" text="Classificação máxima"/>
+	
+	<!-- ========================================================= -->
+	<!-- Desbloqueios -->
+	<!-- ========================================================= -->
+
+	<text name="fr_unlockTitle" text="DESBLOQUEIOS"/>
+
+	<text name="fr_unlocked" text="Desbloqueado:"/>
+	<text name="fr_nextRank" text="Próxima classificação"/>
+	<text name="fr_willUnlock" text="Será desbloqueado:"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Contratantes -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractorsTitle" text="CONTRATANTES"/>
+
+	<text name="fr_accepted" text="Aceitos"/>
+	<text name="fr_completed" text="Concluídos"/>
+	<text name="fr_cancelled" text="Cancelados"/>
+
+	<text name="fr_ownLimit" text="Limite próprio"/>
+	<text name="fr_bonusContractor" text="Bônus do contratante"/>
+	<text name="fr_totalLimit" text="Limite total"/>
+
+	<text name="fr_farmBonus" text="Bônus da fazenda"/>
+	<text name="fr_contractorBonus" text="Bônus do contratante"/>
+	<text name="fr_totalBonus" text="Bônus total"/>
+
+	<text name="fr_contractor" text="Contratante"/>
+
+	<text name="fr_contractorRank_newCustomer" text="Novo cliente"/>
+	<text name="fr_contractorRank_satisfiedCustomer" text="Cliente satisfeito"/>
+	<text name="fr_contractorRank_regularCustomer" text="Cliente fiel"/>
+	<text name="fr_contractorRank_businessPartner" text="Parceiro comercial"/>
+
+	<text name="fr_rewardBonusTitle" text="BÔNUS DE RECOMPENSA"/>
+	<text name="fr_farmBonus" text="Bônus da fazenda"/>
+	<text name="fr_totalBonus" text="Bônus total"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Classificações da fazenda -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank_farmHelper" text="Ajudante da fazenda"/>
+	<text name="fr_rank_farmer" text="Fazendeiro"/>
+	<text name="fr_rank_contractFarmer" text="Prestador de serviços agrícolas"/>
+	<text name="fr_rank_largeContractFarmer" text="Grande prestador de serviços agrícolas"/>
+	<text name="fr_rank_agriculturalContractor" text="Empreiteiro agrícola"/>
+	<text name="fr_rank_largeFarm" text="Grande fazenda"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Avaliação da fazenda -->
+	<!-- ========================================================= -->
+
+	<text name="fr_farmEvaluationTitle" text="AVALIAÇÃO DA FAZENDA"/>
+
+	<text name="fr_lastEvaluation" text="Última avaliação"/>
+	<text name="fr_farmRating" text="Avaliação da fazenda"/>
+	<text name="fr_farmStatus" text="Status da fazenda"/>
+	<text name="fr_reputationChange" text="Mudança na reputação"/>
+
+	<text name="fr_noEvaluation" text="Nenhuma avaliação"/>
+	<text name="fr_year" text="Ano"/>
+
+	<text name="fr_evaluationInfo1"
+		  text="A avaliação da fazenda&#10;é realizada automaticamente&#10;no início de março, junho,&#10;setembro e dezembro."/>
+
+	<text name="fr_evaluationInfo2"
+		  text="Todos os campos pertencentes&#10;à sua fazenda&#10;são avaliados."/>
+
+	<text name="fr_evaluationInfo3"
+		  text="Dependendo do resultado,&#10;você ganhará ou perderá&#10;pontos de reputação."/>
+
+	<!-- Classificações da fazenda -->
+
+	<text name="fr_farmRank_exemplaryFarm" text="Fazenda exemplar"/>
+	<text name="fr_farmRank_respectedFarm" text="Fazenda respeitada"/>
+	<text name="fr_farmRank_solidFarm" text="Fazenda sólida"/>
+	<text name="fr_farmRank_needsImprovement" text="Precisa melhorar"/>
+	<text name="fr_farmRank_problemFarm" text="Fazenda problemática"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Avaliação da fazenda desativada -->
+	<!-- ========================================================= -->
+
+	<text name="fr_evaluationDisabledTitle" text="AVALIAÇÃO DA FAZENDA DESATIVADA"/>
+	<text name="fr_evaluationDisabledText" text="A avaliação da fazenda não está disponível no momento."/>
+
+	<text name="fr_requiredGameOptions" text="Opções de jogo necessárias"/>
+
+	<text name="fr_requirement_plowing" text="Aração"/>
+	<text name="fr_requirement_stones" text="Pedras"/>
+	<text name="fr_requirement_weeds" text="Ervas daninhas"/>
+
+	<text name="fr_requirementPlowing" text="Aração"/>
+	<text name="fr_requirementStones" text="Pedras"/>
+	<text name="fr_requirementWeeds" text="Ervas daninhas"/>
+
+	<text name="fr_evaluationDisabledInfo1" text="- Avaliação trimestral da fazenda"/>
+	<text name="fr_evaluationDisabledInfo2" text="- Análise detalhada dos campos"/>
+	<text name="fr_evaluationDisabledInfo3" text="- Alterações de reputação com base na condição dos campos"/>
+	<text name="fr_evaluationDisabledInfo4" text="- Avaliação de longo prazo da fazenda"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Análise dos campos indisponível -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisUnavailableTitle" text="ANÁLISE DOS CAMPOS INDISPONÍVEL"/>
+	<text name="fr_fieldAnalysisUnavailableText" text="A análise dos campos não está disponível no momento."/>
+
+	<text name="fr_fieldAnalysisUnavailableInfo1" text="- Visão geral de todos os campos pertencentes à fazenda"/>
+	<text name="fr_fieldAnalysisUnavailableInfo2" text="- Estado das ervas daninhas em todos os campos"/>
+	<text name="fr_fieldAnalysisUnavailableInfo3" text="- Estado das pedras em todos os campos"/>
+	<text name="fr_fieldAnalysisUnavailableInfo4" text="- Estado da calagem em todos os campos"/>
+	<text name="fr_fieldAnalysisUnavailableInfo5" text="- Estado da fertilização em todos os campos"/>
+	<text name="fr_fieldAnalysisUnavailableInfo6" text="- Estado da aração em todos os campos"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Análise dos campos -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisTitle" text="ANÁLISE DOS CAMPOS"/>
+
+	<text name="fr_weeds" text="Ervas daninhas"/>
+	<text name="fr_stones" text="Pedras"/>
+	<text name="fr_lime" text="Calagem"/>
+	<text name="fr_fertilization" text="Fertilização"/>
+	<text name="fr_plowing" text="Aração"/>
+
+	<text name="fr_note" text="Observação"/>
+
+	<text name="fr_fieldAnalysis_clean" text="%d de %d campos estão limpos"/>
+	<text name="fr_fieldAnalysis_stoneFree" text="%d de %d campos estão livres de pedras"/>
+	<text name="fr_fieldAnalysis_limed" text="%d de %d campos receberam calagem"/>
+	<text name="fr_fieldAnalysis_fertilized" text="%d de %d campos estão fertilizados de forma ideal"/>
+	<text name="fr_fieldAnalysis_plowed" text="%d de %d campos estão arados"/>
+
+	<text name="fr_fieldInfo1"
+		  text="A análise dos campos mostra&#10;o estado atual de todos&#10;os seus campos."/>
+
+	<text name="fr_fieldInfo2"
+		  text="São exibidos apenas&#10;os critérios considerados&#10;na avaliação&#10;da fazenda."/>
+
+	<text name="fr_fieldInfo3"
+		  text="Melhore esses valores&#10;para ganhar mais pontos&#10;de reputação na próxima&#10;avaliação trimestral."/>
+	
+	<!-- ========================================================= -->
+	<!-- HUD -->
+	<!-- ========================================================= -->
+
+	<text name="fr_hud_contracts" text="Contratos"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Notificações -->
+	<!-- ========================================================= -->
+
+	<text name="fr_notification_rankUpTitle" text="FARM REPUTATION - PROMOÇÃO"/>
+	<text name="fr_notification_rankDownTitle" text="FARM REPUTATION - REBAIXAMENTO"/>
+	<text name="fr_notification_bonusTitle" text="FARM REPUTATION - BÔNUS"/>
+
+	<text name="fr_notification_addedContracts" text="+ Contratos"/>
+	<text name="fr_notification_removedContracts" text="- Contratos"/>
+
+	<text name="fr_notification_addedContractValue" text="+ Valor do contrato"/>
+	<text name="fr_notification_removedContractValue" text="- Valor do contrato"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Diálogos -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractLocked" text="Contrato bloqueado"/>
+	<text name="fr_maxActiveContractsReached" text="O número máximo de contratos ativos foi atingido"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Termos gerais -->
+	<!-- ========================================================= -->
+
+	<text name="fr_yes" text="Sim"/>
+	<text name="fr_no" text="Não"/>
+
+	<text name="fr_active" text="Ativo"/>
+	<text name="fr_inactive" text="Inativo"/>
+
+	<text name="fr_enabled" text="Ativado"/>
+	<text name="fr_disabled" text="Desativado"/>
+
+	<text name="fr_available" text="Disponível"/>
+	<text name="fr_unavailable" text="Indisponível"/>
+
+	<text name="fr_locked" text="Bloqueado"/>
+	<text name="fr_unlockedState" text="Desbloqueado"/>
+
+	<text name="fr_completedState" text="Concluído"/>
+	<text name="fr_notCompleted" text="Não concluído"/>
+
+	<text name="fr_none" text="Nenhum"/>
+	<text name="fr_unknownState" text="Desconhecido"/>
+
+	<text name="fr_points" text="Pontos"/>
+	<text name="fr_contracts" text="Contratos"/>
+
+	<text name="fr_total" text="Total"/>
+	<text name="fr_bonus" text="Bônus"/>
+
+	<text name="fr_reward" text="Recompensa"/>
+	<text name="fr_status" text="Status"/>
+
+	<text name="fr_next" text="Próximo"/>
+	<text name="fr_previous" text="Anterior"/>
+
+	<text name="fr_current" text="Atual"/>
+	<text name="fr_required" text="Necessário"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Meses -->
+	<!-- ========================================================= -->
+
+	<text name="fr_month_march" text="Março"/>
+	<text name="fr_month_june" text="Junho"/>
+	<text name="fr_month_september" text="Setembro"/>
+	<text name="fr_month_december" text="Dezembro"/>
+	
+    </texts>
+</l10n>

@@ -49,13 +49,13 @@ AKFFarmEvaluationManager.ranks = {
     {
         minScore = 50,
         name = g_i18n:getText("fr_farmRank_needsImprovement"),
-        reputation = -15
+        reputation = -10
     },
 
     {
         minScore = 0,
         name = g_i18n:getText("fr_farmRank_problemFarm"),
-        reputation = -30
+        reputation = -20
     }
 
 }
@@ -248,24 +248,24 @@ function AKFFarmEvaluationManager.applyReputation(
 	AKFFarmEvaluationManager.lastReputation =
 		rank.reputation
 
-    Logging.info(
-        "[AKF] Quartalsbewertung"
-    )
+    --Logging.info(
+    --    "[AKF] Quartalsbewertung"
+    --)
 
-    Logging.info(
-        "[AKF] Farmscore: %d",
-        farmScore
-    )
+    --Logging.info(
+    --    "[AKF] Farmscore: %d",
+    --    farmScore
+    --)
 
-    Logging.info(
-        "[AKF] Status: %s",
-        rank.name
-    )
+    --Logging.info(
+    --    "[AKF] Status: %s",
+    --    rank.name
+    --)
 
-    Logging.info(
-        "[AKF] Reputation: %+d",
-        rank.reputation
-    )
+    --Logging.info(
+    --    "[AKF] Reputation: %+d",
+    --    rank.reputation
+    --)
 
 end
 
@@ -275,7 +275,7 @@ end
 
 function AKFFarmEvaluationManager.evaluate()
 
-    Logging.info("===== AKF QUARTALSBEWERTUNG =====")
+    --Logging.info("===== AKF QUARTALSBEWERTUNG =====")
 
     local farmScore =
         AKFReputationCalculator.calculateFarmScore()
@@ -284,16 +284,16 @@ function AKFFarmEvaluationManager.evaluate()
         return
     end
 
-    Logging.info(
-        "[AKF] FarmScore = %d",
-        farmScore
-    )
+   -- Logging.info(
+   --    "[AKF] FarmScore = %d",
+   --     farmScore
+   -- )
 
     AKFFarmEvaluationManager.applyReputation(
         farmScore
     )
 
-    Logging.info("===== AKF ENDE =====")
+    --Logging.info("===== AKF ENDE =====")
 
 end
 

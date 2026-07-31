@@ -26,7 +26,23 @@ function FarmReputationFrame:initialize()
 	
 end
 
+-------------------------------------------------
+-- FRAME OPEN
+-------------------------------------------------
+
 function FarmReputationFrame:onFrameOpen()
+
+    FarmReputationFrame:superClass().onFrameOpen(self)
+
+    self:refresh()
+
+end
+
+-------------------------------------------------
+-- REFRESH
+-------------------------------------------------
+
+function FarmReputationFrame:refresh()
 
 	-------------------------------------------------
     -- FELDANALYSE AKTUALISIEREN
@@ -246,45 +262,65 @@ function FarmReputationFrame:onFrameOpen()
 			)
 		end
 
-				if self.unlockNextBonusText ~= nil then
-					self.unlockNextBonusText:setText(
-						tostring(
-							math.floor(
-								nextRank.rewardBonus * 100
-							)
-						)
-						.. " "
-						.. g_i18n:getText("fr_percent")
-						.. " "
-						.. g_i18n:getText("fr_rewardBonus")
+		if self.unlockNextBonusText ~= nil then
+			self.unlockNextBonusText:setText(
+				tostring(
+					math.floor(
+						nextRank.rewardBonus * 100
 					)
-				end
+				)
+				.. " "
+				.. g_i18n:getText("fr_percent")
+				.. " "
+				.. g_i18n:getText("fr_rewardBonus")
+			)
+		end
 
-				if self.unlockNextValueText ~= nil then
+		if self.unlockNextValueText ~= nil then
 
-					if nextRank.maxContractValue == math.huge then
+			if nextRank.maxContractValue == math.huge then
 
-						self.unlockNextValueText:setText(
-							g_i18n:getText("fr_unlimitedContractValue")
-						)
+				self.unlockNextValueText:setText(
+					g_i18n:getText("fr_unlimitedContractValue")
+				)
 
-					else
+			else
 
-						self.unlockNextValueText:setText(
-							tostring(
-								nextRank.maxContractValue
-							)
-							.. " "
-							.. g_i18n:getText("fr_currency")
-							.. " "
-							.. g_i18n:getText("fr_contractValue")
-						)
-
-					end
-
-				end
+				self.unlockNextValueText:setText(
+					tostring(
+						nextRank.maxContractValue
+					)
+					.. " "
+					.. g_i18n:getText("fr_currency")
+					.. " "
+					.. g_i18n:getText("fr_contractValue")
+				)
 
 			end
+
+		end
+
+	else
+
+		if self.unlockNextRankText ~= nil then
+			self.unlockNextRankText:setText(
+				g_i18n:getText("fr_rank_max")
+			)
+		end
+
+		if self.unlockNextMissionText ~= nil then
+			self.unlockNextMissionText:setText("-")
+		end
+
+		if self.unlockNextBonusText ~= nil then
+			self.unlockNextBonusText:setText("-")
+		end
+
+		if self.unlockNextValueText ~= nil then
+			self.unlockNextValueText:setText("-")
+		end
+
+	end
 
 	if self.unlockCurrentMissionText ~= nil then
 		self.unlockCurrentMissionText:setText(
@@ -617,11 +653,53 @@ function FarmReputationFrame:onFrameOpen()
 		end
 
 	end
+	
+	-------------------------------------------------
+	-- CONTRACTOR REWARD BONUS
+	-------------------------------------------------
 
+	local farmBonus =
+		ReputationManager.getRewardBonus()
+
+	local contractorBonus =
+		ReputationManager.getContractorRewardBonus(
+			selectedContractor
+		)
+
+	local totalBonus =
+		farmBonus + contractorBonus
+
+	if self.contractorFarmBonusText ~= nil then
+		self.contractorFarmBonusText:setText(
+			string.format(
+				"+%d %%",
+				math.floor(farmBonus * 100)
+			)
+		)
 	end
 
-	self:updatePage()
-	self:updateMenuButtons()
+	if self.contractorRewardBonusText ~= nil then
+		self.contractorRewardBonusText:setText(
+			string.format(
+				"+%d %%",
+				math.floor(contractorBonus * 100)
+			)
+		)
+	end
+
+	if self.contractorTotalBonusText ~= nil then
+		self.contractorTotalBonusText:setText(
+			string.format(
+				"+%d %%",
+				math.floor(totalBonus * 100)
+			)
+		)
+	end
+
+		end
+
+		self:updatePage()
+		self:updateMenuButtons()
 	end
 
 	-------------------------------------------------
@@ -819,7 +897,7 @@ end
 								self.selectedContractorIndex - 1
 							)
 
-						self:onFrameOpen()
+						self:refresh()
 
 					end
 				},
@@ -835,7 +913,7 @@ end
 								self.selectedContractorIndex + 1
 							)
 
-						self:onFrameOpen()
+						self:refresh()
 
 					end
 				}
@@ -1005,7 +1083,7 @@ end
 					self.selectedContractorIndex - 1
 				)
 
-			self:onFrameOpen()
+			self:refresh()
 
 			return true
 
@@ -1017,7 +1095,7 @@ end
 					self.selectedContractorIndex + 1
 				)
 
-			self:onFrameOpen()
+			self:refresh()
 
 			return true
 

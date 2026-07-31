@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<l10n>
+    <texts>
+	
+	<!-- ========================================================= -->
+	<!-- Input Actions -->
+	<!-- ========================================================= -->
+
+	<text name="input_FR_PREVIOUS_PAGE" text="Предыдущая страница"/>
+	<text name="input_FR_NEXT_PAGE" text="Следующая страница"/>
+	<text name="input_FR_CONTRACTOR_UP" text="Предыдущий заказчик"/>
+	<text name="input_FR_CONTRACTOR_DOWN" text="Следующий заказчик"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Общие -->
+	<!-- ========================================================= -->
+
+	<text name="fr_menu_title" text="FARM REPUTATION"/>
+	<text name="fr_menuTitle" text="Farm Reputation"/>
+
+	<text name="fr_information" text="Информация"/>
+	<text name="fr_benefits" text="ПРЕИМУЩЕСТВА"/>
+
+	<text name="fr_unknown" text="Неизвестно"/>
+	<text name="fr_unknownContractor" text="Неизвестный заказчик"/>
+
+	<text name="fr_noContractors" text="Пока нет заказчиков"/>
+
+	<text name="fr_currency" text="€"/>
+	<text name="fr_percent" text="%"/>
+	<text name="fr_rep" text="РЕП."/>
+
+	<text name="fr_unlimited" text="Без ограничений"/>
+	<text name="fr_unlimitedContractValue" text="Неограниченная стоимость контракта"/>
+	<text name="fr_maximum" text="Максимум"/>
+
+	<text name="fr_jobs_50plus" text="50+"/>
+
+	<text name="fr_akfDisabled" text="AKF отключён"/>
+
+	<text name="fr_status_active" text="АКТИВНО"/>
+	<text name="fr_status_missing" text="ОТСУТСТВУЕТ"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Страницы -->
+	<!-- ========================================================= -->
+
+	<text name="fr_page_career" text="Карьера"/>
+	<text name="fr_page_unlocks" text="Разблокировки"/>
+	<text name="fr_page_contractors" text="Заказчики"/>
+	<text name="fr_page_farmEvaluation" text="Оценка фермы"/>
+	<text name="fr_page_fieldAnalysis" text="Анализ полей"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Карьера -->
+	<!-- ========================================================= -->
+
+	<text name="fr_careerTitle" text="КАРЬЕРА"/>
+
+	<text name="fr_currentRank" text="Текущий ранг"/>
+	<text name="fr_reputation" text="Репутация"/>
+
+	<text name="fr_currentBenefits" text="ТЕКУЩИЕ ПРЕИМУЩЕСТВА"/>
+
+	<text name="fr_maxActiveContracts" text="Макс. активных контрактов"/>
+	<text name="fr_maxContractValue" text="Макс. стоимость контракта"/>
+	<text name="fr_rewardBonus" text="Бонус к вознаграждению"/>
+
+	<text name="fr_rank_max" text="Максимальный ранг"/>
+		
+	<!-- ========================================================= -->
+	<!-- Разблокировки -->
+	<!-- ========================================================= -->
+
+	<text name="fr_unlockTitle" text="РАЗБЛОКИРОВКИ"/>
+
+	<text name="fr_unlocked" text="Разблокировано:"/>
+	<text name="fr_nextRank" text="Следующий ранг"/>
+	<text name="fr_willUnlock" text="Будет разблокировано:"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Заказчики -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractorsTitle" text="ЗАКАЗЧИКИ"/>
+
+	<text name="fr_accepted" text="Принято"/>
+	<text name="fr_completed" text="Завершено"/>
+	<text name="fr_cancelled" text="Отменено"/>
+
+	<text name="fr_ownLimit" text="Собственный лимит"/>
+	<text name="fr_bonusContractor" text="Бонус заказчика"/>
+	<text name="fr_totalLimit" text="Общий лимит"/>
+
+	<text name="fr_farmBonus" text="Бонус фермы"/>
+	<text name="fr_contractorBonus" text="Бонус заказчика"/>
+	<text name="fr_totalBonus" text="Общий бонус"/>
+
+	<text name="fr_contractor" text="Заказчик"/>
+
+	<text name="fr_contractorRank_newCustomer" text="Новый клиент"/>
+	<text name="fr_contractorRank_satisfiedCustomer" text="Довольный клиент"/>
+	<text name="fr_contractorRank_regularCustomer" text="Постоянный клиент"/>
+	<text name="fr_contractorRank_businessPartner" text="Деловой партнёр"/>
+
+	<text name="fr_rewardBonusTitle" text="БОНУС К ВОЗНАГРАЖДЕНИЮ"/>
+	<text name="fr_farmBonus" text="Бонус фермы"/>
+	<text name="fr_totalBonus" text="Общий бонус"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Ранги фермы -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank_farmHelper" text="Помощник на ферме"/>
+	<text name="fr_rank_farmer" text="Фермер"/>
+	<text name="fr_rank_contractFarmer" text="Подрядный фермер"/>
+	<text name="fr_rank_largeContractFarmer" text="Крупный подрядчик"/>
+	<text name="fr_rank_agriculturalContractor" text="Сельскохозяйственный подрядчик"/>
+	<text name="fr_rank_largeFarm" text="Крупная ферма"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Оценка фермы -->
+	<!-- ========================================================= -->
+
+	<text name="fr_farmEvaluationTitle" text="ОЦЕНКА ФЕРМЫ"/>
+
+	<text name="fr_lastEvaluation" text="Последняя оценка"/>
+	<text name="fr_farmRating" text="Оценка фермы"/>
+	<text name="fr_farmStatus" text="Состояние фермы"/>
+	<text name="fr_reputationChange" text="Изменение репутации"/>
+
+	<text name="fr_noEvaluation" text="Нет оценки"/>
+	<text name="fr_year" text="Год"/>
+
+	<text name="fr_evaluationInfo1"
+		  text="Оценка фермы проводится&#10;автоматически в начале&#10;марта, июня, сентября&#10;и декабря."/>
+
+	<text name="fr_evaluationInfo2"
+		  text="Оцениваются все поля,&#10;принадлежащие вашей&#10;ферме."/>
+
+	<text name="fr_evaluationInfo3"
+		  text="В зависимости от результата&#10;вы получаете или&#10;теряете очки репутации."/>
+
+	<!-- Ранги оценки фермы -->
+
+	<text name="fr_farmRank_exemplaryFarm" text="Образцовая ферма"/>
+	<text name="fr_farmRank_respectedFarm" text="Уважаемая ферма"/>
+	<text name="fr_farmRank_solidFarm" text="Надёжная ферма"/>
+	<text name="fr_farmRank_needsImprovement" text="Требует улучшений"/>
+	<text name="fr_farmRank_problemFarm" text="Проблемная ферма"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Оценка фермы отключена -->
+	<!-- ========================================================= -->
+
+	<text name="fr_evaluationDisabledTitle" text="ОЦЕНКА ФЕРМЫ ОТКЛЮЧЕНА"/>
+	<text name="fr_evaluationDisabledText" text="Оценка фермы в данный момент недоступна."/>
+
+	<text name="fr_requiredGameOptions" text="Необходимые параметры игры"/>
+
+	<text name="fr_requirement_plowing" text="Вспашка"/>
+	<text name="fr_requirement_stones" text="Камни"/>
+	<text name="fr_requirement_weeds" text="Сорняки"/>
+
+	<text name="fr_requirementPlowing" text="Вспашка"/>
+	<text name="fr_requirementStones" text="Камни"/>
+	<text name="fr_requirementWeeds" text="Сорняки"/>
+
+	<text name="fr_evaluationDisabledInfo1" text="- Ежеквартальная оценка фермы"/>
+	<text name="fr_evaluationDisabledInfo2" text="- Подробный анализ полей"/>
+	<text name="fr_evaluationDisabledInfo3" text="- Изменение репутации в зависимости от состояния полей"/>
+	<text name="fr_evaluationDisabledInfo4" text="- Долгосрочная оценка фермы"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Анализ полей недоступен -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisUnavailableTitle" text="АНАЛИЗ ПОЛЕЙ НЕДОСТУПЕН"/>
+	<text name="fr_fieldAnalysisUnavailableText" text="Анализ полей в данный момент недоступен."/>
+
+	<text name="fr_fieldAnalysisUnavailableInfo1" text="- Обзор всех ваших полей"/>
+	<text name="fr_fieldAnalysisUnavailableInfo2" text="- Состояние сорняков на всех полях"/>
+	<text name="fr_fieldAnalysisUnavailableInfo3" text="- Состояние камней на всех полях"/>
+	<text name="fr_fieldAnalysisUnavailableInfo4" text="- Состояние известкования всех полей"/>
+	<text name="fr_fieldAnalysisUnavailableInfo5" text="- Состояние удобрения всех полей"/>
+	<text name="fr_fieldAnalysisUnavailableInfo6" text="- Состояние вспашки всех полей"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Анализ полей -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisTitle" text="АНАЛИЗ ПОЛЕЙ"/>
+
+	<text name="fr_weeds" text="Сорняки"/>
+	<text name="fr_stones" text="Камни"/>
+	<text name="fr_lime" text="Известкование"/>
+	<text name="fr_fertilization" text="Удобрение"/>
+	<text name="fr_plowing" text="Вспашка"/>
+
+	<text name="fr_note" text="Примечание"/>
+
+	<text name="fr_fieldAnalysis_clean" text="%d из %d полей чистые"/>
+	<text name="fr_fieldAnalysis_stoneFree" text="%d из %d полей без камней"/>
+	<text name="fr_fieldAnalysis_limed" text="%d из %d полей известкованы"/>
+	<text name="fr_fieldAnalysis_fertilized" text="%d из %d полей оптимально удобрены"/>
+	<text name="fr_fieldAnalysis_plowed" text="%d из %d полей вспаханы"/>
+
+	<text name="fr_fieldInfo1"
+		  text="Анализ полей показывает&#10;текущее состояние&#10;всех ваших полей."/>
+
+	<text name="fr_fieldInfo2"
+		  text="Отображаются только&#10;показатели, которые&#10;учитываются при&#10;оценке фермы."/>
+
+	<text name="fr_fieldInfo3"
+		  text="Улучшайте эти показатели,&#10;чтобы получать больше&#10;репутации при следующей&#10;ежеквартальной оценке."/>
+	
+	<!-- ========================================================= -->
+	<!-- HUD -->
+	<!-- ========================================================= -->
+
+	<text name="fr_hud_contracts" text="Контракты"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Уведомления -->
+	<!-- ========================================================= -->
+
+	<text name="fr_notification_rankUpTitle" text="FARM REPUTATION - ПОВЫШЕНИЕ РАНГА"/>
+	<text name="fr_notification_rankDownTitle" text="FARM REPUTATION - ПОНИЖЕНИЕ РАНГА"/>
+	<text name="fr_notification_bonusTitle" text="FARM REPUTATION - БОНУС"/>
+
+	<text name="fr_notification_addedContracts" text="+ Контракты"/>
+	<text name="fr_notification_removedContracts" text="- Контракты"/>
+
+	<text name="fr_notification_addedContractValue" text="+ Стоимость контракта"/>
+	<text name="fr_notification_removedContractValue" text="- Стоимость контракта"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Диалоги -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractLocked" text="Контракт заблокирован"/>
+	<text name="fr_maxActiveContractsReached" text="Достигнуто максимальное количество активных контрактов"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Общие термины -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank" text="Ранг"/>
+	<text name="fr_current" text="Текущий"/>
+	<text name="fr_contracts" text="Контракты"/>
+	<text name="fr_activeContracts" text="Активные контракты"/>
+	<text name="fr_contractValue" text="Стоимость контракта"/>
+	<text name="fr_bonus" text="Бонус"/>
+
+	<text name="fr_reputationReward" text="Награда за репутацию"/>
+	<text name="fr_reputationPenalty" text="Потеря репутации"/>
+
+	<text name="fr_currentLimit" text="Ваш текущий лимит"/>
+	<text name="fr_status" text="Статус"/>
+	<text name="fr_progress" text="Прогресс"/>
+	<text name="fr_nextLevel" text="Следующий уровень"/>
+
+	<text name="fr_missing" text="Отсутствует"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Месяцы -->
+	<!-- ========================================================= -->
+
+	<text name="fr_month_march" text="Март"/>
+	<text name="fr_month_june" text="Июнь"/>
+	<text name="fr_month_september" text="Сентябрь"/>
+	<text name="fr_month_december" text="Декабрь"/>
+	
+    </texts>
+</l10n>

@@ -3,7 +3,7 @@
 <modDesc descVersion="110">
 
     <author>Narbenstahl</author>
-    <version>1.0.0.3</version>
+    <version>1.1.0.0</version>
 	
 	<multiplayer supported="true"/>
 
@@ -14,6 +14,31 @@
 
 	<description>
     <en><![CDATA[
+
+Changelog v1.1.0.0
+
+o NEW:
+- Contractor Reputation page
+- Spanish localization
+- Italian localization
+- Dutch localization
+- Portuguese localization
+- Czech localization
+- Polish localization
+- Russian localization
+- Turkish localization
+
+o IMPROVED:
+- UI refresh
+- Reputation save handling
+- HUD
+- Translations
+- Farm evaluation
+
+o FIX:
+- Various bug fixes
+- General optimizations
+
 Farm Reputation extends Farming Simulator 25 and Better Contracts with a complete reputation and career progression system, adding long-term progression and a more realistic contract experience.
 
 Develop your reputation both as a farmer and as a reliable contractor to unlock better opportunities throughout your career.
@@ -52,11 +77,34 @@ Requirements:
 Compatibility:
 • Multiplayer supported
 • Existing savegames supported
-• Compatible with Precision Farming (not required)
-• PC only (Script Mod)
 ]]></en>
 
     <de><![CDATA[
+
+Changelog v1.1.0.0
+
+o NEU:
+- Auftraggeber-Seite
+- Spanische Übersetzung
+- Italienische Übersetzung
+- Niederländische Übersetzung
+- Portugiesische Übersetzung
+- Tschechische Übersetzung
+- Polnische Übersetzung
+- Russische Übersetzung
+- Türkische Übersetzung
+
+o VERBESSERT:
+- UI-Aktualisierung
+- Speichern der Reputation
+- HUD
+- Übersetzungen
+- Betriebsbewertung
+
+o FIX:
+- Diverse Fehler behoben
+- Allgemeine Optimierungen
+
 Farm Reputation erweitert Farming Simulator 25 und Better Contracts um ein vollständiges Reputations- und Karrieresystem mit langfristiger Progression und einem realistischeren Vertragssystem.
 
 Baue deinen Ruf sowohl als Landwirt als auch als zuverlässiger Auftragnehmer auf und schalte im Laufe deiner Karriere neue Möglichkeiten frei.
@@ -95,11 +143,27 @@ Voraussetzungen:
 Kompatibilität:
 • Multiplayer unterstützt
 • Bestehende Spielstände werden unterstützt
-• Kompatibel mit Precision Farming (nicht erforderlich)
-• Nur PC (Script-Mod)
 ]]></de>
 
 	<fr><![CDATA[
+
+Changelog v1.1.0.0
+
+o NOUVEAUTÉS :
+- Nouvelle page de réputation des donneurs d'ordres
+- Ajout des localisations espagnole, italienne, néerlandaise, portugaise, tchèque, polonaise, russe et turque
+
+o AMÉLIORATIONS :
+- Actualisation de l'interface utilisateur
+- Gestion de la sauvegarde de la réputation
+- HUD
+- Traductions
+- Évaluation de l'exploitation
+
+o CORRECTIONS :
+- Divers correctifs
+- Optimisations générales
+
 Farm Reputation étend Farming Simulator 25 et Better Contracts avec un système complet de réputation et de progression de carrière, ajoutant une progression à long terme et une expérience des contrats plus réaliste.
 
 Développez votre réputation à la fois en tant qu'agriculteur et en tant que prestataire fiable afin de débloquer de nouvelles opportunités tout au long de votre carrière.
@@ -138,13 +202,339 @@ Configuration requise :
 Compatibilité :
 • Multijoueur pris en charge
 • Compatible avec les sauvegardes existantes
-• Compatible avec Precision Farming (non requis)
-• PC uniquement (Script Mod)
 ]]></fr>
+
+	<es><![CDATA[
+Farm Reputation amplía Farming Simulator 25 y Better Contracts con un completo sistema de reputación y progresión profesional, añadiendo una progresión a largo plazo y una experiencia de contratos más realista.
+
+Desarrolla tu reputación tanto como agricultor como contratista de confianza para desbloquear nuevas oportunidades a lo largo de tu carrera.
+
+Características:
+• Sistema de carrera con varios rangos
+• Reputación individual para cada contratante
+• Bonificaciones específicas del contratante para el valor máximo de los contratos
+• Sistema de reputación de la explotación con progresión a largo plazo
+• Evaluaciones trimestrales de la explotación
+• Análisis de campos
+• Desbloquea nuevas recompensas a medida que aumenta tu reputación
+• Aumenta el número de contratos activos
+• Desbloquea valores máximos de contrato más altos
+• Obtén bonificaciones adicionales en los pagos de contratos
+
+Cómo funciona:
+• Gana reputación completando contratos con éxito.
+• Obtén reputación adicional mediante evaluaciones trimestrales positivas de la explotación.
+• Pierde reputación al cancelar contratos o recibir malas evaluaciones de la explotación.
+• Cada contratante tiene su propia reputación.
+• Una mayor reputación con un contratante aumenta únicamente el valor máximo de los contratos con ese contratante.
+• Tu rango profesional determina el límite base de contratos, las bonificaciones de recompensa y el número máximo de contratos activos.
+• Las evaluaciones de la explotación tienen en cuenta las malas hierbas, las piedras, la fertilización, el encalado y el arado.
+
+Controles:
+• F9 - Mover el HUD de reputación
+• A - Página anterior
+• D - Página siguiente
+• Flecha arriba - Seleccionar el contratante anterior
+• Flecha abajo - Seleccionar el siguiente contratante
+
+Requisitos:
+• Se requiere Better Contracts (última versión).
+
+Compatibilidad:
+• Compatible con multijugador
+• Compatible con partidas guardadas existentes
+]]></es>
+
+	<it><![CDATA[
+Farm Reputation amplia Farming Simulator 25 e Better Contracts con un sistema completo di reputazione e progressione della carriera, aggiungendo una progressione a lungo termine e un'esperienza dei contratti più realistica.
+
+Sviluppa la tua reputazione sia come agricoltore che come appaltatore affidabile per sbloccare nuove opportunità durante la tua carriera.
+
+Caratteristiche:
+• Sistema di carriera con diversi gradi
+• Reputazione individuale per ogni committente
+• Bonus specifici del committente sul valore massimo dei contratti
+• Sistema di reputazione dell'azienda agricola con progressione a lungo termine
+• Valutazioni trimestrali dell'azienda agricola
+• Analisi dei campi
+• Sblocca nuove ricompense con l'aumento della reputazione
+• Aumenta il numero di contratti attivi
+• Sblocca valori massimi dei contratti più elevati
+• Ottieni bonus aggiuntivi sulle ricompense dei contratti
+
+Come funziona:
+• Guadagna reputazione completando con successo i contratti.
+• Ottieni reputazione aggiuntiva grazie alle valutazioni trimestrali positive dell'azienda agricola.
+• Perdi reputazione annullando contratti o ricevendo valutazioni negative dell'azienda agricola.
+• Ogni committente possiede una reputazione individuale.
+• Una reputazione più alta presso un committente aumenta esclusivamente il valore massimo dei contratti con quel committente.
+• Il tuo grado di carriera determina il limite base dei contratti, i bonus sulle ricompense e il numero massimo di contratti attivi.
+• Le valutazioni dell'azienda agricola tengono conto di infestanti, pietre, fertilizzazione, calcinatura e aratura.
+
+Comandi:
+• F9 - Sposta l'HUD della reputazione
+• A - Pagina precedente
+• D - Pagina successiva
+• Freccia su - Seleziona il committente precedente
+• Freccia giù - Seleziona il committente successivo
+
+Requisiti:
+• È richiesta l'ultima versione di Better Contracts.
+
+Compatibilità:
+• Supporta il multigiocatore
+• Compatibile con i salvataggi esistenti
+]]></it>
+	
+	<nl><![CDATA[
+Farm Reputation breidt Farming Simulator 25 en Better Contracts uit met een compleet reputatie- en carrièresysteem, waardoor langetermijnprogressie en een realistischere contractervaring worden toegevoegd.
+
+Bouw je reputatie op als zowel boer als betrouwbare opdrachtnemer en speel tijdens je carrière nieuwe mogelijkheden vrij.
+
+Functies:
+• Compleet carrièresysteem met meerdere rangen
+• Individuele reputatie voor elke opdrachtgever
+• Opdrachtgever-specifieke bonussen op de maximale contractwaarde
+• Bedrijfsreputatiesysteem met langetermijnprogressie
+• Driemaandelijkse bedrijfsbeoordelingen
+• Veldanalyse
+• Speel nieuwe beloningen vrij naarmate je reputatie groeit
+• Verhoog het aantal gelijktijdig actieve contracten
+• Speel hogere maximale contractwaarden vrij
+• Verdien extra contractbeloningen
+
+Zo werkt het:
+• Verdien reputatie door contracten succesvol af te ronden.
+• Verdien extra reputatie via positieve driemaandelijkse bedrijfsbeoordelingen.
+• Verlies reputatie door contracten te annuleren of slechte bedrijfsbeoordelingen te ontvangen.
+• Elke opdrachtgever heeft een eigen reputatie.
+• Een hogere reputatie bij een opdrachtgever verhoogt uitsluitend de maximale contractwaarde voor die opdrachtgever.
+• Je carrièrerang bepaalt je basiscontractlimiet, beloningsbonussen en het maximale aantal actieve contracten.
+• De bedrijfsbeoordeling houdt rekening met onkruid, stenen, bemesting, bekalking en ploegen.
+
+Besturing:
+• F9 - Verplaats de reputatie-HUD
+• A - Vorige pagina
+• D - Volgende pagina
+• Pijl omhoog - Vorige opdrachtgever selecteren
+• Pijl omlaag - Volgende opdrachtgever selecteren
+
+Vereisten:
+• Better Contracts (laatste versie) is vereist.
+
+Compatibiliteit:
+• Multiplayer ondersteund
+• Bestaande savegames worden ondersteund
+]]></nl>
+
+	<pt_BR><![CDATA[
+Farm Reputation amplia Farming Simulator 25 e Better Contracts com um sistema completo de reputação e progressão de carreira, adicionando progressão de longo prazo e uma experiência de contratos mais realista.
+
+Desenvolva sua reputação tanto como fazendeiro quanto como prestador de serviços agrícolas confiável para desbloquear novas oportunidades ao longo da sua carreira.
+
+Recursos:
+• Sistema completo de carreira com vários níveis
+• Reputação individual para cada contratante
+• Bônus específicos do contratante para o valor máximo dos contratos
+• Sistema de reputação da fazenda com progressão de longo prazo
+• Avaliações trimestrais da fazenda
+• Análise dos campos
+• Desbloqueie novas recompensas conforme sua reputação aumenta
+• Aumente o número de contratos ativos
+• Desbloqueie valores máximos de contrato mais altos
+• Ganhe bônus adicionais nas recompensas dos contratos
+
+Como funciona:
+• Ganhe reputação ao concluir contratos com sucesso.
+• Ganhe reputação adicional por meio de avaliações trimestrais positivas da fazenda.
+• Perca reputação ao cancelar contratos ou receber avaliações negativas da fazenda.
+• Cada contratante possui uma reputação individual.
+• Uma reputação mais alta com um contratante aumenta apenas o valor máximo dos contratos desse contratante.
+• Seu nível de carreira determina o limite básico de contratos, os bônus de recompensa e o número máximo de contratos ativos.
+• As avaliações da fazenda consideram ervas daninhas, pedras, fertilização, calagem e aração.
+
+Controles:
+• F9 - Mover o HUD de reputação
+• A - Página anterior
+• D - Próxima página
+• Seta para cima - Selecionar o contratante anterior
+• Seta para baixo - Selecionar o próximo contratante
+
+Requisitos:
+• Better Contracts (versão mais recente) é obrigatório.
+
+Compatibilidade:
+• Suporte para multijogador
+• Compatível com jogos salvos existentes
+]]></pt_BR>
+
+	<cz><![CDATA[
+Farm Reputation rozšiřuje Farming Simulator 25 a Better Contracts o kompletní systém reputace a kariérního postupu, který přináší dlouhodobou progresi a realističtější systém zakázek.
+
+Budujte svou reputaci jako farmář i jako spolehlivý dodavatel a odemykejte nové příležitosti během své kariéry.
+
+Funkce:
+• Kompletní kariérní systém s několika hodnostmi
+• Individuální reputace pro každého zadavatele
+• Bonusy ke maximální hodnotě zakázky podle zadavatele
+• Systém reputace farmy s dlouhodobou progresí
+• Čtvrtletní hodnocení farmy
+• Analýza polí
+• Odemkněte nové odměny s rostoucí reputací
+• Zvyšte počet aktivních zakázek
+• Odemkněte vyšší maximální hodnoty zakázek
+• Získejte dodatečné bonusy k odměnám za zakázky
+
+Jak to funguje:
+• Získávejte reputaci úspěšným dokončováním zakázek.
+• Získejte další reputaci díky pozitivnímu čtvrtletnímu hodnocení farmy.
+• Ztrácejte reputaci při rušení zakázek nebo špatném hodnocení farmy.
+• Každý zadavatel má vlastní reputaci.
+• Vyšší reputace u konkrétního zadavatele zvyšuje maximální hodnotu zakázek pouze u tohoto zadavatele.
+• Vaše kariérní hodnost určuje základní limit zakázek, bonusy k odměnám a maximální počet aktivních zakázek.
+• Hodnocení farmy zohledňuje plevel, kameny, hnojení, vápnění a orbu.
+
+Ovládání:
+• F9 – Přesunout HUD reputace
+• A – Předchozí stránka
+• D – Další stránka
+• Šipka nahoru – Vybrat předchozího zadavatele
+• Šipka dolů – Vybrat dalšího zadavatele
+
+Požadavky:
+• Vyžaduje Better Contracts (nejnovější verzi).
+
+Kompatibilita:
+• Podporuje multiplayer
+• Kompatibilní se stávajícími uloženými pozicemi
+]]></cz>
+
+	<pl><![CDATA[
+Farm Reputation rozszerza Farming Simulator 25 oraz Better Contracts o kompletny system reputacji i rozwoju kariery, wprowadzając długoterminowy postęp oraz bardziej realistyczny system kontraktów.
+
+Buduj swoją reputację zarówno jako rolnik, jak i zaufany wykonawca usług rolniczych, aby odblokowywać nowe możliwości w trakcie swojej kariery.
+
+Funkcje:
+• Kompletny system kariery z wieloma rangami
+• Indywidualna reputacja dla każdego zleceniodawcy
+• Premie do maksymalnej wartości kontraktu zależne od zleceniodawcy
+• System reputacji gospodarstwa z długoterminowym postępem
+• Kwartalne oceny gospodarstwa
+• Analiza pól
+• Odblokowuj nowe nagrody wraz ze wzrostem reputacji
+• Zwiększaj liczbę aktywnych kontraktów
+• Odblokowuj wyższe maksymalne wartości kontraktów
+• Otrzymuj dodatkowe premie do wynagrodzenia za kontrakty
+
+Jak to działa:
+• Zdobywaj reputację poprzez pomyślne wykonywanie kontraktów.
+• Otrzymuj dodatkową reputację dzięki pozytywnym kwartalnym ocenom gospodarstwa.
+• Tracisz reputację za anulowanie kontraktów lub słabe oceny gospodarstwa.
+• Każdy zleceniodawca posiada własną reputację.
+• Wyższa reputacja u danego zleceniodawcy zwiększa maksymalną wartość kontraktów wyłącznie u tego zleceniodawcy.
+• Twoja ranga kariery określa podstawowy limit kontraktów, premie do wynagrodzenia oraz maksymalną liczbę aktywnych kontraktów.
+• Ocena gospodarstwa uwzględnia chwasty, kamienie, nawożenie, wapnowanie oraz orkę.
+
+Sterowanie:
+• F9 – Przenieś HUD reputacji
+• A – Poprzednia strona
+• D – Następna strona
+• Strzałka w górę – Wybierz poprzedniego zleceniodawcę
+• Strzałka w dół – Wybierz następnego zleceniodawcę
+
+Wymagania:
+• Wymagana jest najnowsza wersja Better Contracts.
+
+Kompatybilność:
+• Obsługa trybu wieloosobowego
+• Kompatybilny z istniejącymi zapisami gry
+]]></pl>
+
+	<ru><![CDATA[
+Farm Reputation расширяет Farming Simulator 25 и Better Contracts, добавляя полноценную систему репутации и карьерного роста, обеспечивая долгосрочное развитие и более реалистичный игровой процесс с контрактами.
+
+Развивайте свою репутацию как фермера и как надёжного подрядчика, чтобы открывать новые возможности на протяжении всей своей карьеры.
+
+Возможности:
+• Полноценная карьерная система с несколькими рангами
+• Индивидуальная репутация для каждого заказчика
+• Бонусы к максимальной стоимости контрактов в зависимости от заказчика
+• Система репутации фермы с долгосрочным развитием
+• Ежеквартальная оценка фермы
+• Анализ полей
+• Открывайте новые награды по мере роста репутации
+• Увеличивайте количество активных контрактов
+• Открывайте более высокие максимальные суммы контрактов
+• Получайте дополнительные бонусы к выплатам за контракты
+
+Как это работает:
+• Получайте репутацию за успешное выполнение контрактов.
+• Получайте дополнительную репутацию за положительные результаты ежеквартальной оценки фермы.
+• Теряйте репутацию при отмене контрактов или получении плохой оценки фермы.
+• Каждый заказчик имеет собственную репутацию.
+• Более высокая репутация у определённого заказчика увеличивает максимальную стоимость контрактов только у этого заказчика.
+• Ваш карьерный ранг определяет базовый лимит контрактов, бонусы к выплатам и максимальное количество одновременно активных контрактов.
+• При оценке фермы учитываются сорняки, камни, внесение удобрений, известкование и вспашка.
+
+Управление:
+• F9 — Переместить HUD репутации
+• A — Предыдущая страница
+• D — Следующая страница
+• Стрелка вверх — Выбрать предыдущего заказчика
+• Стрелка вниз — Выбрать следующего заказчика
+
+Требования:
+• Требуется Better Contracts (последняя версия).
+
+Совместимость:
+• Поддерживается многопользовательский режим
+• Совместимо с существующими сохранениями
+]]></ru>
+
+	<tr><![CDATA[
+Farm Reputation, Farming Simulator 25 ve Better Contracts modlarını kapsamlı bir itibar ve kariyer ilerleme sistemiyle genişleştirerek uzun vadeli gelişim ve daha gerçekçi bir sözleşme deneyimi sunar.
+
+Hem çiftçi hem de güvenilir bir yüklenici olarak itibarınızı geliştirin ve kariyeriniz boyunca yeni fırsatların kilidini açın.
+
+Özellikler:
+• Birden fazla rütbeye sahip kapsamlı kariyer sistemi
+• Her işveren için ayrı itibar sistemi
+• İşverene özel maksimum sözleşme değeri bonusları
+• Uzun vadeli çiftlik itibarı sistemi
+• Üç aylık çiftlik değerlendirmeleri
+• Tarla analizi
+• İtibarınız arttıkça yeni ödüllerin kilidini açın
+• Aynı anda aktif olabilecek sözleşme sayısını artırın
+• Daha yüksek maksimum sözleşme değerlerinin kilidini açın
+• Sözleşme ödemelerinde ek bonuslar kazanın
+
+Nasıl çalışır:
+• Sözleşmeleri başarıyla tamamlayarak itibar kazanın.
+• Olumlu üç aylık çiftlik değerlendirmeleri sayesinde ek itibar kazanın.
+• Sözleşmeleri iptal ettiğinizde veya olumsuz çiftlik değerlendirmeleri aldığınızda itibar kaybedin.
+• Her işverenin kendine ait bir itibarı vardır.
+• Belirli bir işveren nezdindeki daha yüksek itibar, yalnızca o işveren için maksimum sözleşme değerini artırır.
+• Kariyer rütbeniz temel sözleşme limitinizi, ödül bonuslarınızı ve aynı anda aktif olabilecek maksimum sözleşme sayısını belirler.
+• Çiftlik değerlendirmesinde yabani otlar, taşlar, gübreleme, kireçleme ve sürme durumu dikkate alınır.
+
+Kontroller:
+• F9 - İtibar HUD'unu taşı
+• A - Önceki sayfa
+• D - Sonraki sayfa
+• Yukarı Ok - Önceki işvereni seç
+• Aşağı Ok - Sonraki işvereni seç
+
+Gereksinimler:
+• Better Contracts'ın en güncel sürümü gereklidir.
+
+Uyumluluk:
+• Çok oyunculu mod desteklenir
+• Mevcut kayıt dosyalarıyla uyumludur
+]]></tr>
 	
 	</description>
 	
-    <iconFilename>icon_mod.dds</iconFilename>
+    <iconFilename>icon_farmReputation.dds</iconFilename>
 
     <dependencies>
         <dependency>FS25_BetterContracts</dependency>
@@ -157,6 +547,7 @@ Compatibilité :
         <sourceFile filename="scripts/ContractEvaluator.lua"/>
 		<sourceFile filename="scripts/MissionFilter.lua"/>
 		<sourceFile filename="scripts/ContractorManager.lua"/>
+		<sourceFile filename="scripts/MissionDetailsExtension.lua"/>
 		<sourceFile filename="scripts/MultiplayerManager.lua"/>
 		<sourceFile filename="scripts/FarmReputationDisplay.lua"/>
 		<sourceFile filename="scripts/RankNotificationManager.lua"/>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<l10n>
+    <texts>
+	
+	<!-- ========================================================= -->
+	<!-- Invoeracties -->
+	<!-- ========================================================= -->
+
+	<text name="input_FR_PREVIOUS_PAGE" text="Vorige pagina"/>
+	<text name="input_FR_NEXT_PAGE" text="Volgende pagina"/>
+	<text name="input_FR_CONTRACTOR_UP" text="Vorige opdrachtgever"/>
+	<text name="input_FR_CONTRACTOR_DOWN" text="Volgende opdrachtgever"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Algemeen -->
+	<!-- ========================================================= -->
+
+	<text name="fr_menu_title" text="FARM REPUTATION"/>
+	<text name="fr_menuTitle" text="Farm Reputation"/>
+
+	<text name="fr_information" text="Informatie"/>
+	<text name="fr_benefits" text="VOORDELEN"/>
+
+	<text name="fr_unknown" text="Onbekend"/>
+	<text name="fr_unknownContractor" text="Onbekende opdrachtgever"/>
+
+	<text name="fr_noContractors" text="Nog geen opdrachtgevers"/>
+
+	<text name="fr_currency" text="€"/>
+	<text name="fr_percent" text="%"/>
+	<text name="fr_rep" text="REP"/>
+
+	<text name="fr_unlimited" text="Onbeperkt"/>
+	<text name="fr_unlimitedContractValue" text="Onbeperkte contractwaarde"/>
+	<text name="fr_maximum" text="Maximum"/>
+
+	<text name="fr_jobs_50plus" text="50+"/>
+
+	<text name="fr_akfDisabled" text="AKF uitgeschakeld"/>
+
+	<text name="fr_status_active" text="ACTIEF"/>
+	<text name="fr_status_missing" text="ONTBREEKT"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Pagina's -->
+	<!-- ========================================================= -->
+
+	<text name="fr_page_career" text="Carrière"/>
+	<text name="fr_page_unlocks" text="Vrijspelingen"/>
+	<text name="fr_page_contractors" text="Opdrachtgevers"/>
+	<text name="fr_page_farmEvaluation" text="Bedrijfsbeoordeling"/>
+	<text name="fr_page_fieldAnalysis" text="Veldanalyse"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Carrière -->
+	<!-- ========================================================= -->
+
+	<text name="fr_careerTitle" text="CARRIÈRE"/>
+
+	<text name="fr_currentRank" text="Huidige rang"/>
+	<text name="fr_reputation" text="Reputatie"/>
+
+	<text name="fr_currentBenefits" text="HUIDIGE VOORDELEN"/>
+
+	<text name="fr_maxActiveContracts" text="Max. actieve contracten"/>
+	<text name="fr_maxContractValue" text="Max. contractwaarde"/>
+	<text name="fr_rewardBonus" text="Beloningsbonus"/>
+
+	<text name="fr_rank_max" text="Hoogste rang"/>
+	
+	<!-- ========================================================= -->
+	<!-- Vrijspelingen -->
+	<!-- ========================================================= -->
+
+	<text name="fr_unlockTitle" text="VRIJSPELINGEN"/>
+
+	<text name="fr_unlocked" text="Vrijgespeeld:"/>
+	<text name="fr_nextRank" text="Volgende rang"/>
+	<text name="fr_willUnlock" text="Wordt vrijgespeeld:"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Opdrachtgevers -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractorsTitle" text="OPDRACHTGEVERS"/>
+
+	<text name="fr_accepted" text="Geaccepteerd"/>
+	<text name="fr_completed" text="Voltooid"/>
+	<text name="fr_cancelled" text="Geannuleerd"/>
+
+	<text name="fr_ownLimit" text="Eigen limiet"/>
+	<text name="fr_bonusContractor" text="Bonus opdrachtgever"/>
+	<text name="fr_totalLimit" text="Totale limiet"/>
+
+	<text name="fr_farmBonus" text="Bedrijfsbonus"/>
+	<text name="fr_contractorBonus" text="Bonus opdrachtgever"/>
+	<text name="fr_totalBonus" text="Totale bonus"/>
+
+	<text name="fr_contractor" text="Opdrachtgever"/>
+
+	<text name="fr_contractorRank_newCustomer" text="Nieuwe klant"/>
+	<text name="fr_contractorRank_satisfiedCustomer" text="Tevreden klant"/>
+	<text name="fr_contractorRank_regularCustomer" text="Vaste klant"/>
+	<text name="fr_contractorRank_businessPartner" text="Zakelijke partner"/>
+
+	<text name="fr_rewardBonusTitle" text="BELONINGSBONUS"/>
+	<text name="fr_farmBonus" text="Bedrijfsbonus"/>
+	<text name="fr_totalBonus" text="Totale bonus"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Bedrijfsrangen -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank_farmHelper" text="Boerderijhulp"/>
+	<text name="fr_rank_farmer" text="Boer"/>
+	<text name="fr_rank_contractFarmer" text="Loonwerker"/>
+	<text name="fr_rank_largeContractFarmer" text="Grote loonwerker"/>
+	<text name="fr_rank_agriculturalContractor" text="Agrarisch aannemer"/>
+	<text name="fr_rank_largeFarm" text="Groot landbouwbedrijf"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Bedrijfsbeoordeling -->
+	<!-- ========================================================= -->
+
+	<text name="fr_farmEvaluationTitle" text="BEDRIJFSBEOORDELING"/>
+
+	<text name="fr_lastEvaluation" text="Laatste beoordeling"/>
+	<text name="fr_farmRating" text="Bedrijfsbeoordeling"/>
+	<text name="fr_farmStatus" text="Bedrijfsstatus"/>
+	<text name="fr_reputationChange" text="Verandering van reputatie"/>
+
+	<text name="fr_noEvaluation" text="Geen beoordeling"/>
+	<text name="fr_year" text="Jaar"/>
+
+	<text name="fr_evaluationInfo1"
+		  text="De bedrijfsbeoordeling wordt&#10;automatisch uitgevoerd aan&#10;het begin van maart, juni,&#10;september en december."/>
+
+	<text name="fr_evaluationInfo2"
+		  text="Alle velden die bij jouw&#10;landbouwbedrijf horen,&#10;worden beoordeeld."/>
+
+	<text name="fr_evaluationInfo3"
+		  text="Afhankelijk van het resultaat&#10;verdien of verlies je&#10;reputatiepunten."/>
+
+	<!-- Bedrijfsbeoordelingen -->
+
+	<text name="fr_farmRank_exemplaryFarm" text="Voorbeeldig landbouwbedrijf"/>
+	<text name="fr_farmRank_respectedFarm" text="Gerespecteerd landbouwbedrijf"/>
+	<text name="fr_farmRank_solidFarm" text="Solide landbouwbedrijf"/>
+	<text name="fr_farmRank_needsImprovement" text="Verbetering nodig"/>
+	<text name="fr_farmRank_problemFarm" text="Problematisch landbouwbedrijf"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Bedrijfsbeoordeling uitgeschakeld -->
+	<!-- ========================================================= -->
+
+	<text name="fr_evaluationDisabledTitle" text="BEDRIJFSBEOORDELING UITGESCHAKELD"/>
+	<text name="fr_evaluationDisabledText" text="De bedrijfsbeoordeling is momenteel niet beschikbaar."/>
+
+	<text name="fr_requiredGameOptions" text="Vereiste spelopties"/>
+
+	<text name="fr_requirement_plowing" text="Ploegen"/>
+	<text name="fr_requirement_stones" text="Stenen"/>
+	<text name="fr_requirement_weeds" text="Onkruid"/>
+
+	<text name="fr_requirementPlowing" text="Ploegen"/>
+	<text name="fr_requirementStones" text="Stenen"/>
+	<text name="fr_requirementWeeds" text="Onkruid"/>
+
+	<text name="fr_evaluationDisabledInfo1" text="- Kwartaalbeoordeling van het bedrijf"/>
+	<text name="fr_evaluationDisabledInfo2" text="- Gedetailleerde veldanalyse"/>
+	<text name="fr_evaluationDisabledInfo3" text="- Reputatiewijzigingen op basis van de veldstatus"/>
+	<text name="fr_evaluationDisabledInfo4" text="- Langetermijnbeoordeling van het bedrijf"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Veldanalyse niet beschikbaar -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisUnavailableTitle" text="VELDANALYSE NIET BESCHIKBAAR"/>
+	<text name="fr_fieldAnalysisUnavailableText" text="De veldanalyse is momenteel niet beschikbaar."/>
+
+	<text name="fr_fieldAnalysisUnavailableInfo1" text="- Overzicht van alle eigen velden"/>
+	<text name="fr_fieldAnalysisUnavailableInfo2" text="- Onkruidstatus van alle velden"/>
+	<text name="fr_fieldAnalysisUnavailableInfo3" text="- Steenstatus van alle velden"/>
+	<text name="fr_fieldAnalysisUnavailableInfo4" text="- Bekalkingsstatus van alle velden"/>
+	<text name="fr_fieldAnalysisUnavailableInfo5" text="- Bemestingsstatus van alle velden"/>
+	<text name="fr_fieldAnalysisUnavailableInfo6" text="- Ploegstatus van alle velden"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Veldanalyse -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisTitle" text="VELDANALYSE"/>
+
+	<text name="fr_weeds" text="Onkruid"/>
+	<text name="fr_stones" text="Stenen"/>
+	<text name="fr_lime" text="Bekalking"/>
+	<text name="fr_fertilization" text="Bemesting"/>
+	<text name="fr_plowing" text="Ploegen"/>
+
+	<text name="fr_note" text="Opmerking"/>
+
+	<text name="fr_fieldAnalysis_clean" text="%d van %d velden zijn schoon"/>
+	<text name="fr_fieldAnalysis_stoneFree" text="%d van %d velden zijn steenvrij"/>
+	<text name="fr_fieldAnalysis_limed" text="%d van %d velden zijn bekalkt"/>
+	<text name="fr_fieldAnalysis_fertilized" text="%d van %d velden zijn optimaal bemest"/>
+	<text name="fr_fieldAnalysis_plowed" text="%d van %d velden zijn geploegd"/>
+
+	<text name="fr_fieldInfo1"
+		  text="De veldanalyse toont&#10;de huidige toestand van&#10;al je velden."/>
+
+	<text name="fr_fieldInfo2"
+		  text="Alleen de criteria&#10;die meetellen voor de&#10;bedrijfsbeoordeling&#10;worden weergegeven."/>
+
+	<text name="fr_fieldInfo3"
+		  text="Verbeter deze waarden&#10;om bij de volgende&#10;kwartaalbeoordeling meer&#10;reputatiepunten te verdienen."/>
+	
+	<!-- ========================================================= -->
+	<!-- HUD -->
+	<!-- ========================================================= -->
+
+	<text name="fr_hud_contracts" text="Contracten"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Meldingen -->
+	<!-- ========================================================= -->
+
+	<text name="fr_notification_rankUpTitle" text="FARM REPUTATION - PROMOTIE"/>
+	<text name="fr_notification_rankDownTitle" text="FARM REPUTATION - DEGRADATIE"/>
+	<text name="fr_notification_bonusTitle" text="FARM REPUTATION - BONUS"/>
+
+	<text name="fr_notification_addedContracts" text="+ Contracten"/>
+	<text name="fr_notification_removedContracts" text="- Contracten"/>
+
+	<text name="fr_notification_addedContractValue" text="+ Contractwaarde"/>
+	<text name="fr_notification_removedContractValue" text="- Contractwaarde"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Dialoogvensters -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractLocked" text="Contract vergrendeld"/>
+	<text name="fr_maxActiveContractsReached" text="Het maximale aantal actieve contracten is bereikt"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Algemene begrippen -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank" text="Rang"/>
+	<text name="fr_current" text="Huidig"/>
+	<text name="fr_contracts" text="Contracten"/>
+	<text name="fr_activeContracts" text="Actieve contracten"/>
+	<text name="fr_contractValue" text="Contractwaarde"/>
+	<text name="fr_bonus" text="Bonus"/>
+
+	<text name="fr_reputationReward" text="Reputatiebeloning"/>
+	<text name="fr_reputationPenalty" text="Reputatiestraf"/>
+
+	<text name="fr_currentLimit" text="Je huidige limiet"/>
+	<text name="fr_status" text="Status"/>
+	<text name="fr_progress" text="Voortgang"/>
+	<text name="fr_nextLevel" text="Volgend niveau"/>
+
+	<text name="fr_missing" text="Ontbreekt"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Maanden -->
+	<!-- ========================================================= -->
+
+	<text name="fr_month_march" text="Maart"/>
+	<text name="fr_month_june" text="Juni"/>
+	<text name="fr_month_september" text="September"/>
+	<text name="fr_month_december" text="December"/>
+	
+    </texts>
+</l10n>

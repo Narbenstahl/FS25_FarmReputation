@@ -192,6 +192,33 @@
 		<Text profile="contractorValue8"
 			  id="contractorMaxLimitText"
 			  text="-"/>
+		
+		<!-- VERGÜTUNGSBONUS -->
+
+		<Text profile="contractorRewardTitle"
+			  text="$l10n_fr_rewardBonusTitle"/>
+
+		<Text profile="contractorLabel9"
+			  text="$l10n_fr_farmBonus"/>
+
+		<Text profile="contractorValue9"
+			  id="contractorFarmBonusText"
+			  text="-"/>
+
+		<Text profile="contractorLabel10"
+			  text="$l10n_fr_bonusContractor"/>
+
+		<Text profile="contractorValue10"
+			  id="contractorRewardBonusText"
+			  text="-"/>
+
+		<Text profile="contractorLabel11"
+			  text="$l10n_fr_totalBonus"/>
+
+		<Text profile="contractorValue11"
+			  id="contractorTotalBonusText"
+			  text="-"/>
+		
 	</GuiElement>
 
 	<GuiElement id="evaluationPage">
@@ -576,115 +603,142 @@
 			<textSize value="18px" />
 		</Profile>
 
-		<Profile name="contractorLabel"
-				 extends="fs25_textDefault">
-			<position value="950px 620px" />
-			<textSize value="18px" />
+		<!-- AUFTRAGGEBER - STATISTIK -->
+
+		<Profile name="contractorLabel" extends="fs25_textDefault">
+			<position value="900px 700px"/>
+			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue"
-				 extends="fs25_textDefault">
-			<position value="950px 580px" />
-			<textSize value="24px" />
-			<textBold value="true" />
+		<Profile name="contractorValue" extends="fs25_textDefault">
+			<position value="900px 665px"/>
+			<textSize value="24px"/>
+			<textBold value="true"/>
 		</Profile>
 
-		<Profile name="contractorLabel2"
-				 extends="fs25_textDefault">
-			<position value="950px 500px" />
-			<textSize value="18px" />
+		<Profile name="contractorLabel2" extends="fs25_textDefault">
+			<position value="900px 600px"/>
+			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue2"
-				 extends="fs25_textDefault">
-			<position value="950px 460px" />
-			<textSize value="24px" />
-			<textBold value="true" />
+		<Profile name="contractorValue2" extends="fs25_textDefault">
+			<position value="900px 565px"/>
+			<textSize value="24px"/>
+			<textBold value="true"/>
 		</Profile>
 
-		<Profile name="contractorLabel3"
-				 extends="fs25_textDefault">
-			<position value="1150px 620px" />
-			<textSize value="18px" />
+		<Profile name="contractorLabel3" extends="fs25_textDefault">
+			<position value="1130px 700px"/>
+			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue3"
-				 extends="fs25_textDefault">
-			<position value="1150px 580px" />
-			<textSize value="24px" />
-			<textBold value="true" />
+		<Profile name="contractorValue3" extends="fs25_textDefault">
+			<position value="1130px 665px"/>
+			<textSize value="24px"/>
+			<textBold value="true"/>
 		</Profile>
 
-		<Profile name="contractorLabel4"
-				 extends="fs25_textDefault">
-			<position value="1150px 500px" />
-			<textSize value="18px" />
+		<Profile name="contractorLabel4" extends="fs25_textDefault">
+			<position value="1130px 600px"/>
+			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue4"
-				 extends="fs25_textDefault">
-			<position value="1150px 460px" />
-			<textSize value="24px" />
-			<textBold value="true" />
+		<Profile name="contractorValue4" extends="fs25_textDefault">
+			<position value="1130px 565px"/>
+			<textSize value="24px"/>
+			<textBold value="true"/>
 		</Profile>
 
-		<Profile name="contractorLabel5"
-				 extends="fs25_textDefault">
-			<position value="1150px 380px" />
-			<textSize value="18px" />
+		<Profile name="contractorLabel5" extends="fs25_textDefault">
+			<position value="1130px 500px"/>
+			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue5"
-				 extends="fs25_textDefault">
-			<position value="1150px 340px" />
-			<textSize value="24px" />
-			<textBold value="true" />
+		<Profile name="contractorValue5" extends="fs25_textDefault">
+			<position value="1130px 465px"/>
+			<textSize value="24px"/>
+			<textBold value="true"/>
 		</Profile>
 		
-		<Profile name="contractorBenefitsTitle"
-				 extends="fs25_textDefault">
-			<position value="950px 250px"/>
+		<Profile name="contractorBenefitsTitle" extends="fs25_textDefault">
+			<position value="900px 390px"/>
 			<textSize value="22px"/>
 			<textBold value="true"/>
 		</Profile>
 
-		<Profile name="contractorLabel6"
-				 extends="fs25_textDefault">
-			<position value="950px 190px"/>
+		<Profile name="contractorLabel6" extends="fs25_textDefault">
+			<position value="900px 325px"/>
 			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue6"
-				 extends="fs25_textDefault">
-			<position value="950px 155px"/>
+		<Profile name="contractorValue6" extends="fs25_textDefault">
+			<position value="900px 290px"/>
 			<textSize value="22px"/>
 			<textBold value="true"/>
 		</Profile>
 
-		<Profile name="contractorLabel7"
-				 extends="fs25_textDefault">
-			<position value="950px 110px"/>
+		<Profile name="contractorLabel7" extends="fs25_textDefault">
+			<position value="900px 245px"/>
 			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue7"
-				 extends="fs25_textDefault">
-			<position value="950px 75px"/>
+		<Profile name="contractorValue7" extends="fs25_textDefault">
+			<position value="900px 210px"/>
 			<textSize value="22px"/>
 			<textBold value="true"/>
 		</Profile>
 
-		<Profile name="contractorLabel8"
-				 extends="fs25_textDefault">
-			<position value="1150px 190px"/>
+		<Profile name="contractorLabel8" extends="fs25_textDefault">
+			<position value="1130px 325px"/>
 			<textSize value="18px"/>
 		</Profile>
 
-		<Profile name="contractorValue8"
-				 extends="fs25_textDefault">
-			<position value="1150px 155px"/>
+		<Profile name="contractorValue8" extends="fs25_textDefault">
+			<position value="1130px 290px"/>
 			<textSize value="22px"/>
 			<textBold value="true"/>
+		</Profile>
+		
+		<Profile name="contractorRewardTitle" extends="fs25_textDefault">
+			<position value="900px 150px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+		</Profile>
+
+		<Profile name="contractorLabel9" extends="fs25_textDefault">
+			<position value="900px 100px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="contractorValue9" extends="fs25_textDefault">
+			<position value="1130px 100px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+			<textAlignment value="right"/>
+		</Profile>
+
+		<Profile name="contractorLabel10" extends="fs25_textDefault">
+			<position value="900px 60px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="contractorValue10" extends="fs25_textDefault">
+			<position value="1130px 60px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+			<textAlignment value="right"/>
+		</Profile>
+
+		<Profile name="contractorLabel11" extends="fs25_textDefault">
+			<position value="900px 20px"/>
+			<textSize value="18px"/>
+		</Profile>
+
+		<Profile name="contractorValue11" extends="fs25_textDefault">
+			<position value="1130px 20px"/>
+			<textSize value="22px"/>
+			<textBold value="true"/>
+			<textAlignment value="right"/>
 		</Profile>
 		
 	<!-- BETRIEBSBEWERTUNG -->

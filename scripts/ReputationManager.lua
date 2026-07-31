@@ -103,6 +103,64 @@ ReputationManager.reputationByFarm = {}
 		}
 
 	}
+	
+	ReputationManager.contractorRanks = {
+
+		{
+			title = g_i18n:getText("fr_contractorRank_newCustomer"),
+			min = 0,
+			maxContractBonus = 0,
+			rewardBonus = 0.00
+		},
+
+		{
+			title = g_i18n:getText("fr_contractorRank_satisfiedCustomer"),
+			min = 50,
+			maxContractBonus = 5000,
+			rewardBonus = 0.01
+		},
+
+		{
+			title = g_i18n:getText("fr_contractorRank_regularCustomer"),
+			min = 150,
+			maxContractBonus = 25000,
+			rewardBonus = 0.02
+		},
+
+		{
+			title = g_i18n:getText("fr_contractorRank_businessPartner"),
+			min = 300,
+			maxContractBonus = 50000,
+			rewardBonus = 0.03
+		}
+
+	}
+	
+	-------------------------------------------------
+	-- GET CONTRACTOR RANK DATA
+	-------------------------------------------------
+
+	function ReputationManager.getContractorRankData(contractorName)
+
+		local reputation =
+			ReputationManager.getContractorReputation(contractorName)
+
+		local currentRank =
+			ReputationManager.contractorRanks[1]
+
+		for _, rank in ipairs(
+			ReputationManager.contractorRanks
+		) do
+
+			if reputation >= rank.min then
+				currentRank = rank
+			end
+
+		end
+
+		return currentRank
+
+	end
 
 	-------------------------------------------------
 	-- GET RANK DATA
@@ -207,6 +265,10 @@ end
 		FarmReputation.autoSaveManager:markDirty()
 	end
 	
+	if g_farmReputationFrame ~= nil then
+		g_farmReputationFrame:refresh()
+	end
+	
     local newRank =
         ReputationManager.getRankData()
 
@@ -260,6 +322,10 @@ end
 	
 	if FarmReputation.autoSaveManager ~= nil then
 		FarmReputation.autoSaveManager:markDirty()
+	end
+	
+	if g_farmReputationFrame ~= nil then
+		g_farmReputationFrame:refresh()
 	end
 	
     local newRank =
@@ -407,6 +473,10 @@ end
 			FarmReputation.autoSaveManager:markDirty()
 		end
 		
+		if g_farmReputationFrame ~= nil then
+			g_farmReputationFrame:refresh()
+		end
+		
 	end
 
 	-------------------------------------------------
@@ -437,6 +507,10 @@ end
 		
 		if FarmReputation.autoSaveManager ~= nil then
 			FarmReputation.autoSaveManager:markDirty()
+		end
+		
+		if g_farmReputationFrame ~= nil then
+			g_farmReputationFrame:refresh()
 		end
 		
 	end
@@ -535,24 +609,9 @@ end
 		contractorName
 	)
 
-		local reputation =
-			ReputationManager.getContractorReputation(
-				contractorName
-			)
-
-		if reputation >= 300 then
-			return g_i18n:getText("fr_contractorRank_businessPartner")
-		end
-
-		if reputation >= 150 then
-			return g_i18n:getText("fr_contractorRank_regularCustomer")
-		end
-
-		if reputation >= 50 then
-			return g_i18n:getText("fr_contractorRank_satisfiedCustomer")
-		end
-
-		return g_i18n:getText("fr_contractorRank_newCustomer")
+		return ReputationManager
+			.getContractorRankData(contractorName)
+			.title
 
 	end
 	
@@ -562,22 +621,21 @@ end
 
 	function ReputationManager.getContractorMaxContractBonus(contractorName)
 
-		local reputation =
-			ReputationManager.getContractorReputation(contractorName)
+		return ReputationManager
+			.getContractorRankData(contractorName)
+			.maxContractBonus
 
-		if reputation >= 300 then
-			return 50000
-		end
+	end
+	
+	-------------------------------------------------
+	-- GET CONTRACTOR REWARD BONUS
+	-------------------------------------------------
 
-		if reputation >= 150 then
-			return 25000
-		end
+	function ReputationManager.getContractorRewardBonus(contractorName)
 
-		if reputation >= 50 then
-			return 5000
-		end
-
-		return 0
+		return ReputationManager
+			.getContractorRankData(contractorName)
+			.rewardBonus
 
 	end
 	
@@ -677,7 +735,11 @@ end
 		if FarmReputation.autoSaveManager ~= nil then
 			FarmReputation.autoSaveManager:markDirty()
 		end
-	
+		
+		if g_farmReputationFrame ~= nil then
+			g_farmReputationFrame:refresh()
+		end
+				
 	end
 
 	-------------------------------------------------

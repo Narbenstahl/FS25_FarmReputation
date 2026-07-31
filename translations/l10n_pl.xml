@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<l10n>
+    <texts>
+	
+	<!-- ========================================================= -->
+	<!-- Input Actions -->
+	<!-- ========================================================= -->
+
+	<text name="input_FR_PREVIOUS_PAGE" text="Poprzednia strona"/>
+	<text name="input_FR_NEXT_PAGE" text="Następna strona"/>
+	<text name="input_FR_CONTRACTOR_UP" text="Poprzedni zleceniodawca"/>
+	<text name="input_FR_CONTRACTOR_DOWN" text="Następny zleceniodawca"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Ogólne -->
+	<!-- ========================================================= -->
+
+	<text name="fr_menu_title" text="FARM REPUTATION"/>
+	<text name="fr_menuTitle" text="Farm Reputation"/>
+
+	<text name="fr_information" text="Informacje"/>
+	<text name="fr_benefits" text="KORZYŚCI"/>
+
+	<text name="fr_unknown" text="Nieznany"/>
+	<text name="fr_unknownContractor" text="Nieznany zleceniodawca"/>
+
+	<text name="fr_noContractors" text="Brak zleceniodawców"/>
+
+	<text name="fr_currency" text="€"/>
+	<text name="fr_percent" text="%"/>
+	<text name="fr_rep" text="REP"/>
+
+	<text name="fr_unlimited" text="Bez ograniczeń"/>
+	<text name="fr_unlimitedContractValue" text="Nieograniczona wartość kontraktu"/>
+	<text name="fr_maximum" text="Maksimum"/>
+
+	<text name="fr_jobs_50plus" text="50+"/>
+
+	<text name="fr_akfDisabled" text="AKF wyłączone"/>
+
+	<text name="fr_status_active" text="AKTYWNE"/>
+	<text name="fr_status_missing" text="BRAKUJE"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Strony -->
+	<!-- ========================================================= -->
+
+	<text name="fr_page_career" text="Kariera"/>
+	<text name="fr_page_unlocks" text="Odblokowania"/>
+	<text name="fr_page_contractors" text="Zleceniodawcy"/>
+	<text name="fr_page_farmEvaluation" text="Ocena gospodarstwa"/>
+	<text name="fr_page_fieldAnalysis" text="Analiza pól"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Kariera -->
+	<!-- ========================================================= -->
+
+	<text name="fr_careerTitle" text="KARIERA"/>
+
+	<text name="fr_currentRank" text="Aktualna ranga"/>
+	<text name="fr_reputation" text="Reputacja"/>
+
+	<text name="fr_currentBenefits" text="AKTUALNE KORZYŚCI"/>
+
+	<text name="fr_maxActiveContracts" text="Maks. aktywnych kontraktów"/>
+	<text name="fr_maxContractValue" text="Maks. wartość kontraktu"/>
+	<text name="fr_rewardBonus" text="Premia do wynagrodzenia"/>
+
+	<text name="fr_rank_max" text="Maksymalna ranga"/>
+	
+	<!-- ========================================================= -->
+	<!-- Odblokowania -->
+	<!-- ========================================================= -->
+
+	<text name="fr_unlockTitle" text="ODBLOKOWANIA"/>
+
+	<text name="fr_unlocked" text="Odblokowano:"/>
+	<text name="fr_nextRank" text="Następna ranga"/>
+	<text name="fr_willUnlock" text="Zostanie odblokowane:"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Zleceniodawcy -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractorsTitle" text="ZLECENIODAWCY"/>
+
+	<text name="fr_accepted" text="Przyjęte"/>
+	<text name="fr_completed" text="Ukończone"/>
+	<text name="fr_cancelled" text="Anulowane"/>
+
+	<text name="fr_ownLimit" text="Własny limit"/>
+	<text name="fr_bonusContractor" text="Premia zleceniodawcy"/>
+	<text name="fr_totalLimit" text="Łączny limit"/>
+
+	<text name="fr_farmBonus" text="Premia gospodarstwa"/>
+	<text name="fr_contractorBonus" text="Premia zleceniodawcy"/>
+	<text name="fr_totalBonus" text="Łączna premia"/>
+
+	<text name="fr_contractor" text="Zleceniodawca"/>
+
+	<text name="fr_contractorRank_newCustomer" text="Nowy klient"/>
+	<text name="fr_contractorRank_satisfiedCustomer" text="Zadowolony klient"/>
+	<text name="fr_contractorRank_regularCustomer" text="Stały klient"/>
+	<text name="fr_contractorRank_businessPartner" text="Partner biznesowy"/>
+
+	<text name="fr_rewardBonusTitle" text="PREMIA DO WYNAGRODZENIA"/>
+	<text name="fr_farmBonus" text="Premia gospodarstwa"/>
+	<text name="fr_totalBonus" text="Łączna premia"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Rangi gospodarstwa -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank_farmHelper" text="Pomocnik gospodarstwa"/>
+	<text name="fr_rank_farmer" text="Rolnik"/>
+	<text name="fr_rank_contractFarmer" text="Usługodawca rolniczy"/>
+	<text name="fr_rank_largeContractFarmer" text="Duży usługodawca rolniczy"/>
+	<text name="fr_rank_agriculturalContractor" text="Przedsiębiorca rolniczy"/>
+	<text name="fr_rank_largeFarm" text="Duże gospodarstwo"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Ocena gospodarstwa -->
+	<!-- ========================================================= -->
+
+	<text name="fr_farmEvaluationTitle" text="OCENA GOSPODARSTWA"/>
+
+	<text name="fr_lastEvaluation" text="Ostatnia ocena"/>
+	<text name="fr_farmRating" text="Ocena gospodarstwa"/>
+	<text name="fr_farmStatus" text="Stan gospodarstwa"/>
+	<text name="fr_reputationChange" text="Zmiana reputacji"/>
+
+	<text name="fr_noEvaluation" text="Brak oceny"/>
+	<text name="fr_year" text="Rok"/>
+
+	<text name="fr_evaluationInfo1"
+		  text="Ocena gospodarstwa jest wykonywana&#10;automatycznie na początku&#10;marca, czerwca, września&#10;i grudnia."/>
+
+	<text name="fr_evaluationInfo2"
+		  text="Oceniane są wszystkie pola&#10;należące do Twojego&#10;gospodarstwa."/>
+
+	<text name="fr_evaluationInfo3"
+		  text="W zależności od wyniku&#10;zyskujesz lub tracisz&#10;punkty reputacji."/>
+
+	<!-- Rangi oceny gospodarstwa -->
+
+	<text name="fr_farmRank_exemplaryFarm" text="Wzorowe gospodarstwo"/>
+	<text name="fr_farmRank_respectedFarm" text="Szanowane gospodarstwo"/>
+	<text name="fr_farmRank_solidFarm" text="Solidne gospodarstwo"/>
+	<text name="fr_farmRank_needsImprovement" text="Wymaga poprawy"/>
+	<text name="fr_farmRank_problemFarm" text="Problematyczne gospodarstwo"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Ocena gospodarstwa wyłączona -->
+	<!-- ========================================================= -->
+
+	<text name="fr_evaluationDisabledTitle" text="OCENA GOSPODARSTWA WYŁĄCZONA"/>
+	<text name="fr_evaluationDisabledText" text="Ocena gospodarstwa jest obecnie niedostępna."/>
+
+	<text name="fr_requiredGameOptions" text="Wymagane opcje gry"/>
+
+	<text name="fr_requirement_plowing" text="Orka"/>
+	<text name="fr_requirement_stones" text="Kamienie"/>
+	<text name="fr_requirement_weeds" text="Chwasty"/>
+
+	<text name="fr_requirementPlowing" text="Orka"/>
+	<text name="fr_requirementStones" text="Kamienie"/>
+	<text name="fr_requirementWeeds" text="Chwasty"/>
+
+	<text name="fr_evaluationDisabledInfo1" text="- Kwartalne oceny gospodarstwa"/>
+	<text name="fr_evaluationDisabledInfo2" text="- Szczegółowa analiza pól"/>
+	<text name="fr_evaluationDisabledInfo3" text="- Zmiany reputacji zależne od stanu pól"/>
+	<text name="fr_evaluationDisabledInfo4" text="- Długoterminowa ocena gospodarstwa"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Analiza pól niedostępna -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisUnavailableTitle" text="ANALIZA PÓL NIEDOSTĘPNA"/>
+	<text name="fr_fieldAnalysisUnavailableText" text="Analiza pól jest obecnie niedostępna."/>
+
+	<text name="fr_fieldAnalysisUnavailableInfo1" text="- Przegląd wszystkich posiadanych pól"/>
+	<text name="fr_fieldAnalysisUnavailableInfo2" text="- Stan chwastów na wszystkich polach"/>
+	<text name="fr_fieldAnalysisUnavailableInfo3" text="- Stan kamieni na wszystkich polach"/>
+	<text name="fr_fieldAnalysisUnavailableInfo4" text="- Stan wapnowania wszystkich pól"/>
+	<text name="fr_fieldAnalysisUnavailableInfo5" text="- Stan nawożenia wszystkich pól"/>
+	<text name="fr_fieldAnalysisUnavailableInfo6" text="- Stan orki wszystkich pól"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Analiza pól -->
+	<!-- ========================================================= -->
+
+	<text name="fr_fieldAnalysisTitle" text="ANALIZA PÓL"/>
+
+	<text name="fr_weeds" text="Chwasty"/>
+	<text name="fr_stones" text="Kamienie"/>
+	<text name="fr_lime" text="Wapnowanie"/>
+	<text name="fr_fertilization" text="Nawożenie"/>
+	<text name="fr_plowing" text="Orka"/>
+
+	<text name="fr_note" text="Uwaga"/>
+
+	<text name="fr_fieldAnalysis_clean" text="%d z %d pól jest czystych"/>
+	<text name="fr_fieldAnalysis_stoneFree" text="%d z %d pól jest wolnych od kamieni"/>
+	<text name="fr_fieldAnalysis_limed" text="%d z %d pól zostało zwapnowanych"/>
+	<text name="fr_fieldAnalysis_fertilized" text="%d z %d pól jest optymalnie nawożonych"/>
+	<text name="fr_fieldAnalysis_plowed" text="%d z %d pól zostało zaoranych"/>
+
+	<text name="fr_fieldInfo1"
+		  text="Analiza pól pokazuje&#10;aktualny stan wszystkich&#10;Twoich pól."/>
+
+	<text name="fr_fieldInfo2"
+		  text="Wyświetlane są tylko&#10;kryteria uwzględniane&#10;podczas oceny&#10;gospodarstwa."/>
+
+	<text name="fr_fieldInfo3"
+		  text="Popraw te wartości,&#10;aby podczas następnej&#10;oceny kwartalnej zdobyć&#10;więcej reputacji."/>
+	
+	<!-- ========================================================= -->
+	<!-- HUD -->
+	<!-- ========================================================= -->
+
+	<text name="fr_hud_contracts" text="Kontrakty"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Powiadomienia -->
+	<!-- ========================================================= -->
+
+	<text name="fr_notification_rankUpTitle" text="FARM REPUTATION - AWANS"/>
+	<text name="fr_notification_rankDownTitle" text="FARM REPUTATION - DEGRADACJA"/>
+	<text name="fr_notification_bonusTitle" text="FARM REPUTATION - BONUS"/>
+
+	<text name="fr_notification_addedContracts" text="+ Kontrakty"/>
+	<text name="fr_notification_removedContracts" text="- Kontrakty"/>
+
+	<text name="fr_notification_addedContractValue" text="+ Wartość kontraktu"/>
+	<text name="fr_notification_removedContractValue" text="- Wartość kontraktu"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Okna dialogowe -->
+	<!-- ========================================================= -->
+
+	<text name="fr_contractLocked" text="Kontrakt zablokowany"/>
+	<text name="fr_maxActiveContractsReached" text="Osiągnięto maksymalną liczbę aktywnych kontraktów"/>
+
+
+    <!-- ========================================================= -->
+	<!-- Ogólne pojęcia -->
+	<!-- ========================================================= -->
+
+	<text name="fr_rank" text="Ranga"/>
+	<text name="fr_current" text="Aktualny"/>
+	<text name="fr_contracts" text="Kontrakty"/>
+	<text name="fr_activeContracts" text="Aktywne kontrakty"/>
+	<text name="fr_contractValue" text="Wartość kontraktu"/>
+	<text name="fr_bonus" text="Bonus"/>
+
+	<text name="fr_reputationReward" text="Nagroda za reputację"/>
+	<text name="fr_reputationPenalty" text="Utrata reputacji"/>
+
+	<text name="fr_currentLimit" text="Twój aktualny limit"/>
+	<text name="fr_status" text="Status"/>
+	<text name="fr_progress" text="Postęp"/>
+	<text name="fr_nextLevel" text="Następny poziom"/>
+
+	<text name="fr_missing" text="Brakuje"/>
+
+
+	<!-- ========================================================= -->
+	<!-- Miesiące -->
+	<!-- ========================================================= -->
+
+	<text name="fr_month_march" text="Marzec"/>
+	<text name="fr_month_june" text="Czerwiec"/>
+	<text name="fr_month_september" text="Wrzesień"/>
+	<text name="fr_month_december" text="Grudzień"/>
+	
+    </texts>
+</l10n>
